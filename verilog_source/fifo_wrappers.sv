@@ -1,4 +1,4 @@
-import rfsoc_config::*;
+
 
 module axis_sync_fifo
 #(parameter mem_width = 16, parameter bus_width = 256)

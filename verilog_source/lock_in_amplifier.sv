@@ -24,17 +24,10 @@ sine_gen sine_generator
 	rst,
 	period,//Every period clock cycles you advance one position in the 1024 lookup table
 	0,//In steps of 2pi/1024
-	sine_wave
-);
-
-sine_gen cosine_generator
-(
-	clk, //250MHz clk
-	rst,
-	period,//Every period clock cycles you advance one position in the 1024 lookup table
-	0,//In steps of 2pi/1024
+	sine_wave,
 	cosine_wave
 );
+
 
 
 
