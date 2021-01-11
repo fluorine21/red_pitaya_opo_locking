@@ -212,3 +212,113 @@ run -all
 # 
 # 
 # Break in Module filter_tb at D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv line 104
+# Compile of filter_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.filter_tb_sv_unit
+# Loading work.filter_tb
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fprintf' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /filter_tb File: D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv Line: 83
+# ** Warning: Design size of 8209 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# 
+# ========Starting Test========
+# 
+# 
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fprintf'
+#    Time: 0 ps  Iteration: 0  Process: /filter_tb/#INITIAL#69 File: D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv Line: 83
+# Testing period 00000000000000000000000000000002...
+# 
+# Compile of filter_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.filter_tb_sv_unit
+# Loading work.filter_tb
+# ** Warning: Design size of 8209 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: Design size of 8209 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# 
+# ========Starting Test========
+# 
+# 
+# Testing period 00000000000000000000000000000002...
+# 
+# Compile of filter_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.filter_tb_sv_unit
+# Loading work.filter_tb
+# ** Warning: Design size of 8209 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# 
+# ========Starting Test========
+# 
+# 
+# Testing period 00000000000000000000000000000002...
+# 
+# Compile of filter_tb.sv was successful.
+# Compile of filter_tb.sv was successful.
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.filter_tb_sv_unit
+# Loading work.filter_tb
+# ** Warning: Design size of 8209 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# 
+# ========Starting Test========
+# 
+# 
+# Testing period 00000000000000000000000000000002...
+# 
+# Compile of filter_tb.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.filter_tb_sv_unit
+# Loading work.filter_tb
+# ** Warning: Design size of 8209 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 
+# 
+# ========Starting Test========
+# 
+# 
+# Testing period 00000000000000000000000000000002...
+# 
+# Break in Module filter_tb at D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv line 130
+run -all
+# Testing period 00000000000000000000000000000007...
+# 

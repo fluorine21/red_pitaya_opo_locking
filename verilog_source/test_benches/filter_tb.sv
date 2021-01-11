@@ -80,17 +80,17 @@ initial begin
 	outfile = $fopen("filter_results.csv", "w");
 	
 	//Write the preamble
-	$fdisplay(outfile, "period, sine_out,");
+	$fwrite(outfile, "period, sine_out,");
 	for(i = 0; i < num_filters; i = i + 1) begin
 		if(i == 0) begin
-			$fdisplay(outfile, "avg_0,"); 
+			$fwrite(outfile, "avg_0,"); 
 		end
 		else begin
-			$fdisplay(outfile, "avg_%u,", (2**(i-1))); 
+			$fwrite(outfile, "avg_%x,", (2**(i-1))); 
 		end
 	end
 	
-	$fdisplay(outfile, "\n");
+	$fwrite(outfile, "\n");
 	
 	
 	//Reset task
@@ -99,7 +99,7 @@ initial begin
 	repeat(100) clk_cycle();
 
 	//Looping through frequencies from 122kHz to 244Hz
-	for(period = 2; period < 1000; period = period + 1) begin
+	for(period = 2; period < 1000; period = period + 5) begin
 	
 		$display("Testing period %u...\n", period);
 	
@@ -113,16 +113,16 @@ initial begin
 			
 			//Store the output of sine_gen
 			//period, output of sine gen
-			$fdisplay(outfile, "%x,%x,", period, sine_out);
+			$fwrite(outfile, "%x,%x,", period, sine_out);
 			
 			//Loop through and store everything else
 			for(j = 0; j < num_filters; j = j + 1) begin
 			
-				$fdisplay(outfile, "%x,", sample_output_bus[(j*word_width)+:word_width]);
+				$fwrite(outfile, "%x,", sample_output_bus[(j*word_width)+:word_width]);
 			
 			end
 			
-			$fdisplay(outfile, "\n");
+			$fwrite(outfile, "\n");
 		
 		end
 		
@@ -133,15 +133,16 @@ initial begin
 			//2 extra for period and sine gen
 			for(j = 0; j < num_filters+2; j = j + 1) begin
 			
-				$fdisplay(outfile, "%x,", 0);
+				$fwrite(outfile, "%x,", 0);
 			
 			end
 			
-			$fdisplay(outfile, "\n");
+			$fwrite(outfile, "\n");
 		end
 	end
 
 	$display("Done!");
+	$finish;
 
 end
 

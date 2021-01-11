@@ -1,11 +1,11 @@
-D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv
+D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
--- Compiling package filter_tb_sv_unit
+-- Compiling package cascade_low_pass_filter_sv_unit
 -- Importing package opo_package
--- Compiling module filter_tb
+-- Compiling module cascade_low_pass_filter
 
 Top level modules:
-	filter_tb
+	cascade_low_pass_filter
 
 } {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_gen.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_gen.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
