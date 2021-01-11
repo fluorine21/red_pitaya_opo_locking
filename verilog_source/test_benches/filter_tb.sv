@@ -1,8 +1,12 @@
-import opo_package::*;
-
+//import opo_package::*;
+//import OPO_PACKAGE::*;
 
 //Used for checking the frequency response of the filter
 module filter_tb();
+
+parameter word_width = 16;
+parameter sine_lut_width = 10;
+parameter config_reg_width = 128;
 
 
 //Sine wave generator
@@ -20,7 +24,7 @@ sine_gen sine_gen_inst
 );
 
 
-parameter num_filters = 14; //From 0 stages to 2^12 stages
+parameter num_filters = 10; //From 0 stages to 2^12 stages
 //Output bus for filters
 wire [(num_filters*word_width)-1:0] sample_output_bus;
 wire [num_filters-1:0] sample_output_bus_valid;
@@ -69,9 +73,9 @@ int outfile;
 initial begin
 
 
-	clk <= 0;
-	rst <= 1;
-	period <= 10;//Just something random to start off with
+	clk =0;
+	rst =1;
+	period = 10;//Just something random to start off with
 	
 	$display("\n\n========Starting Test========\n\n");
 	
@@ -95,17 +99,21 @@ initial begin
 	
 	//Reset task
 	repeat(10) clk_cycle();
-	rst <= 0;
+	rst = 0;
 	repeat(100) clk_cycle();
 
 	//Looping through frequencies from 122kHz to 244Hz
 	for(period = 2; period < 1000; period = period + 5) begin
 	
-		$display("Testing period %u...\n", period);
+		$display("Testing period %d...\n", period);
 	
 		//Figure out how many clock cycles we need to complete 10 full oscillations
+		
+		/* verilator lint_off WIDTH */
 		num_clock_cycles = 1024 * period * 10;
-		rst <= 1;//Bring everything out of reset
+		/* verilator lint_on WIDTH */
+		
+		rst = 1;//Bring everything out of reset
 		for(i = 0; i < num_clock_cycles; i = i + 1) begin
 		
 			//Cycle the clock
@@ -127,7 +135,7 @@ initial begin
 		end
 		
 		//Hold everything in reset for 100 cycles and just write 0s to notify MATLAB
-		rst <= 0;
+		rst = 0;
 		for(i = 0; i < 100; i = i + 1) begin
 			clk_cycle();
 			//2 extra for period and sine gen
@@ -152,9 +160,9 @@ task clk_cycle();
 begin
 
 	#1
-	clk <= 1;
+	clk = 1;
 	#1
-	clk <= 0;
+	clk = 0;
 
 end
 endtask

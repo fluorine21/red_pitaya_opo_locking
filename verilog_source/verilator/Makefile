@@ -44,14 +44,12 @@ endif
 run:
 	@echo "-- Verilator hello-world simple example"
 	@echo "-- VERILATE & COMPILE ------"
-	$(VERILATOR) -cc --exe filter_tb.sv filter_tb_run.cpp -I ..\rtl -I ..\test_benches
+	$(VERILATOR) -cc --exe filter_tb.sv opo_package.sv filter_tb_run.cpp -y ../rtl -y ../test_benches -Wno-STMTDLY
 	@echo "--COMPILE-------------------"
-	make -j 4 -C obj_dir -f Vtop.mk
+	make -j 4 -C obj_dir -f Vfilter_tb.mk
 	@echo "-- RUN ---------------------"
-	obj_dir/Vtop
+	obj_dir/Vfilter_tb
 	@echo "-- DONE --------------------"
-	@echo "Note: Once this example is understood, see examples/make_tracing_sc."
-	@echo "Note: Also see the EXAMPLE section in the verilator manpage/document."
 
 ######################################################################
 

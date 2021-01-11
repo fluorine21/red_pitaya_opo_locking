@@ -6,16 +6,13 @@
 // SPDX-License-Identifier: CC0-1.0
 //======================================================================
 
-// SystemC global header
-#include <systemc.h>
-
 // Include common routines
 #include <verilated.h>
 
 // Include model header, generated from Verilating "top.v"
 #include "Vfilter_tb.h"
 
-int sc_main(int argc, char* argv[]) {
+int main(int argc, char** argv, char** env) {
     // See a similar example walkthrough in the verilator manpage.
 
     // This is intended to be a minimal example.  Before copying this to start a
@@ -23,23 +20,25 @@ int sc_main(int argc, char* argv[]) {
     // e.g. examples/c_tracing.
 
     // Prevent unused variable warnings
-    if (false && argc && argv) {}
+    if (false && argc && argv && env) {}
 
     // Construct the Verilated model, from Vtop.h generated from Verilating "top.v"
-    Vfilter_tb* top = new Vfilter_tb("filter_tb");
-
-    // Initialize SC model
-    sc_start(1, SC_NS);
+    //Vfilter_tb* top = new Vfilter_tb("filter_tb");
+	Vfilter_tb* top = new Vfilter_tb;
 
     // Simulate until $finish
     while (!Verilated::gotFinish()) {
-        // Simulate 1ns
-        sc_start(1, SC_NS);
+
+        // Evaluate model
+        top->eval();
     }
 
     // Final model cleanup
     top->final();
 
+    // Destroy model
+    delete top;
+
     // Return good completion status
-    return 0;
+    exit(0);
 }

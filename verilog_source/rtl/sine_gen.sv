@@ -14,7 +14,7 @@ module sine_gen
 );
 
 //How many clock cycles we should wait until increasing the counter by 1
-wire [31:0] phase_step_period = period;
+wire [config_reg_width-1:0] phase_step_period = period;
 
 
 

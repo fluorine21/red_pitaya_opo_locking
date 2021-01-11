@@ -10,7 +10,7 @@ parameter num_stages = 8
 (
 	input wire clk, rst,
 	
-	input wire [(num_stages ? num_stages-1 : 0):0] stage_enable,
+	input wire [(num_stages != 0 ? num_stages-1 : 0):0] stage_enable,
 	
 	input wire [word_width-1:0] sample_in,
 	input wire sample_in_valid,
@@ -20,10 +20,10 @@ parameter num_stages = 8
 	output wire sample_out_valid
 );
 
+parameter num_stages_int = num_stages == 0 ? 1 : num_stages;
 
-
-wire [(num_stages*word_width)-1:0] sample_bus;
-wire [num_stages-1:0] sample_valid_bus;
+wire [(num_stages_int*word_width)-1:0] sample_bus;
+wire [num_stages_int-1:0] sample_valid_bus;
 
 //If we have 0 stages just act as a passthrough
 assign sample_out = num_stages == 0 ? sample_in : sample_bus[((num_stages-1)*word_width)+:word_width];
