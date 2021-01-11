@@ -16,6 +16,7 @@ parameter num_stages = 8
 	input wire sample_in_valid,
 	
 	output wire [word_width-1:0] sample_out,
+
 	output wire sample_out_valid
 );
 
@@ -44,12 +45,12 @@ for(i = 0; i < num_stages; i = i + 1) begin
 			sample_in_valid,
 			
 			sample_bus[(i*word_width)+:word_width],
-			sample_valid_bus[i],
+			sample_valid_bus[i]
 		);
 	end
 	//Othwerwise connect it to the bus
 	else begin
-		moving_average_2 first_stage
+		moving_average_2 nth_stage
 		(
 			clk, rst,
 			
@@ -59,7 +60,7 @@ for(i = 0; i < num_stages; i = i + 1) begin
 			sample_valid_bus[i-1],
 			
 			sample_bus[(i*word_width)+:word_width],
-			sample_valid_bus[i],
+			sample_valid_bus[i]
 		);
 	end
 end

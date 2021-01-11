@@ -4,7 +4,7 @@ word_width = 16; %Number of bits used by each sample
 lut_addr_width = 10;%How wide the address bus should be to access the sin ROM
 
 
-filename = "sine_lut.sv";
+filename = "rtl\sine_lut.sv";
 
 num_sin_points = 2 ^ lut_addr_width;
 
@@ -36,7 +36,7 @@ fprintf(fid, "always @ * begin\n\ncase(addr)\n\n");
 for i = 1:max(size(lut_arr))
     
     one = lut_addr_width;
-    two = dec2hex(i-1, 4);
+    two = dec2hex(i-1, 3);
     three = word_width;
     four = dec2hex(int64(lut_arr(i)), int64(word_width/4));
     

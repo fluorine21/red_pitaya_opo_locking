@@ -47,9 +47,13 @@ always @ (posedge clk) begin
 end
 
 //If our integration samples is set to 0 then just passthrough
-assign signal_out_ext = integration == 0 ? signal_in : signal_out;
+reg [config_reg_width-1:0] signal_out;
+assign signal_out_ext = integration_samples == 0 ? signal_in : signal_out;
 
-always @ (posdedge clk or negedge rst) begin
+reg [1:0] state;
+localparam [1:0] state_idle = 1, state_clear_fifo = 0, state_init_average = 2;
+
+always @ (posedge clk or negedge rst) begin
 	if(!rst) begin
 		state <= state_clear_fifo;
 		fifo_write <= 0;
@@ -162,7 +166,7 @@ module moving_average_2
 	input wire sample_in_valid,
 	
 	output reg [word_width-1:0] sample_out,
-	output reg sample_out_valid,
+	output reg sample_out_valid
 	
 );
 
@@ -187,7 +191,7 @@ always @ (posedge clk or negedge rst) begin
 		if(sample_in_valid) begin
 	
 			//Update the stored sample
-			sample_1 <= sample_in
+			sample_1 <= sample_in;
 		
 			//Output sample should be valid here
 			sample_out_valid <= 1;

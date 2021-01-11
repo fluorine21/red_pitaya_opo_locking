@@ -34,7 +34,7 @@ always @(posedge clk or negedge rst) begin
 		
 		end
 		else begin
-			pase_step_counter <= phase_step_counter + 1;
+			phase_step_counter <= phase_step_counter + 1;
 		end
 	end
 end
