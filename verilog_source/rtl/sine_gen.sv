@@ -1,5 +1,5 @@
 //Variable frequency sine wave generator
-
+ 
 
 import opo_package::*;
 

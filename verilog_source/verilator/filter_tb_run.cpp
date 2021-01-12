@@ -25,10 +25,13 @@ int main(int argc, char** argv, char** env) {
     // Construct the Verilated model, from Vtop.h generated from Verilating "top.v"
     //Vfilter_tb* top = new Vfilter_tb("filter_tb");
 	Vfilter_tb* top = new Vfilter_tb;
+	
+	top->clk = 0;
 
     // Simulate until $finish
     while (!Verilated::gotFinish()) {
-
+		//Cycle the clock
+		top->clk = !top->clk;
         // Evaluate model
         top->eval();
     }
