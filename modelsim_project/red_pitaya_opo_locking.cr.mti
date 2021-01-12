@@ -1,33 +1,4 @@
-D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
--- Compiling package cascade_low_pass_filter_sv_unit
--- Importing package opo_package
--- Compiling module cascade_low_pass_filter
-
-Top level modules:
-	cascade_low_pass_filter
-
-} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_gen.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_gen.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
--- Compiling package sine_gen_sv_unit
--- Importing package opo_package
--- Compiling module sine_gen
-
-Top level modules:
-	sine_gen
-
-} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
--- Compiling package low_pass_filter_sv_unit
--- Importing package opo_package
--- Compiling module n_moving_average_filter
--- Compiling module moving_average_2
-
-Top level modules:
-	n_moving_average_filter
-	moving_average_2
-
-} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv
+D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
 -- Compiling package opo_package
 

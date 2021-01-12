@@ -9,6 +9,11 @@ parameter sine_lut_width = 10;
 parameter config_reg_width = 128;
 
 
+reg [255:0] cycle_counter, cycle_timestamp, num_clock_cycles;
+reg [15:0] state;
+int outfile, i;
+
+
 //Sine wave generator
 reg rst;
 reg [config_reg_width-1:0] period;
@@ -67,100 +72,7 @@ for(k = 0; k < num_filters; k = k + 1) begin
 end
 
 
-integer num_clock_cycles, i,j;
 
-
-initial begin
-
-
-	//clk =0;
-	rst =1;
-	period = 10;//Just something random to start off with
-	
-	$display("\n\n========Starting Test========\n\n");
-	
-	//Get the output file ready
-	 
-	outfile = $fopen("filter_results.csv", "w");
-	
-	//Write the preamble
-	$fwrite(outfile, "period, sine_out,");
-	for(i = 0; i < num_filters; i = i + 1) begin
-		if(i == 0) begin
-			$fwrite(outfile, "avg_0,"); 
-		end
-		else begin
-			$fwrite(outfile, "avg_%x,", (2**(i-1))); 
-		end
-	end
-	
-	$fwrite(outfile, "\n");
-	
-	
-	//Reset task
-	repeat(10) clk_cycle();
-	rst = 0;
-	repeat(100) clk_cycle();
-
-	//Looping through frequencies from 122kHz to 244Hz
-	for(period = 2; period < 1000; period = period + 5) begin
-	
-		$display("Testing period %d...\n", period);
-	
-		//Figure out how many clock cycles we need to complete 10 full oscillations
-		
-		/* verilator lint_off WIDTH */
-		num_clock_cycles = 1024 * period * 10;
-		/* verilator lint_on WIDTH */
-		
-		rst = 1;//Bring everything out of reset
-		for(i = 0; i < num_clock_cycles; i = i + 1) begin
-		
-			//Cycle the clock
-			clk_cycle();
-			
-			//Store the output of sine_gen
-			//period, output of sine gen
-			$fwrite(outfile, "%x,%x,", period, sine_out);
-			
-			//Loop through and store everything else
-			for(j = 0; j < num_filters; j = j + 1) begin
-			
-				$fwrite(outfile, "%x,", sample_output_bus[(j*word_width)+:word_width]);
-			
-			end
-			
-			$fwrite(outfile, "\n");
-		
-		end
-		
-		//Hold everything in reset for 100 cycles and just write 0s to notify MATLAB
-		rst = 0;
-		for(i = 0; i < 100; i = i + 1) begin
-			clk_cycle();
-			//2 extra for period and sine gen
-			for(j = 0; j < num_filters+2; j = j + 1) begin
-			
-				$fwrite(outfile, "%x,", 0);
-			
-			end
-			
-			$fwrite(outfile, "\n");
-		end
-	end
-
-	$display("Done!");
-	$finish;
-
-end
-
-
-reg [255:0] cycle_counter, cycle_timestamp, num_clock_cycles;
-reg [15:0] state;
-int outfile;
-
-reg rst;
-reg [config_reg_width-1:0] period;
 
 
 localparam [15:0] state_reset = 0,
@@ -250,9 +162,9 @@ always @ (posedge clk) begin
 			$fwrite(outfile, "%x,%x,", period, sine_out);
 			
 			//Loop through and store everything else
-			for(j = 0; j < num_filters; j = j + 1) begin
+			for(i = 0; i < num_filters; i = i + 1) begin
 			
-				$fwrite(outfile, "%x,", sample_output_bus[(j*word_width)+:word_width]);
+				$fwrite(outfile, "%x,", sample_output_bus[(i*word_width)+:word_width]);
 			
 			end
 			
@@ -270,13 +182,14 @@ always @ (posedge clk) begin
 				$finish;
 			end
 		
-			reset <= 0;
+			//Hold everything in reset
+			rst <= 0;
 		
 			//If we're done
 			if(cycle_counter - cycle_timestamp > num_clock_cycles) begin
 				state <= state_start_run;
 				num_clock_cycles <= 100;//For reset
-				reset <= 1;
+				rst <= 1;
 			end
 		
 		end

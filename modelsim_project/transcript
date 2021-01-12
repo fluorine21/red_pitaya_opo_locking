@@ -322,3 +322,59 @@ run -all
 run -all
 # Testing period 00000000000000000000000000000007...
 # 
+quit -sim
+# End time: 19:08:51 on Jan 11,2021, Elapsed time: 22:29:57
+# Errors: 0, Warnings: 2
+# Compile of filter_tb_wrapper.sv was successful.
+# Compile of filter_tb.sv failed with 7 errors.
+# Compile of filter_tb.sv failed with 6 errors.
+# Compile of filter_tb.sv failed with 4 errors.
+# Compile of filter_tb.sv failed with 2 errors.
+# Compile of filter_tb.sv failed with 2 errors.
+# Compile of filter_tb.sv failed with 1 errors.
+# Compile of filter_tb.sv was successful.
+vsim -gui work.filter_tb
+# vsim -gui work.filter_tb 
+# Start time: 21:18:01 on Jan 11,2021
+# Loading sv_std.std
+# Loading work.filter_tb
+# Loading work.opo_package
+# Loading work.sine_gen_sv_unit
+# Loading work.sine_gen
+# Loading work.sine_lut_sv_unit
+# Loading work.sine_lut
+# Loading work.cascade_low_pass_filter_sv_unit
+# Loading work.cascade_low_pass_filter
+# Loading work.low_pass_filter_sv_unit
+# Loading work.moving_average_2
+quit -sim
+# End time: 21:18:07 on Jan 11,2021, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 10
+vsim -gui work.filter_tb_wrapper
+# vsim -gui work.filter_tb_wrapper 
+# Start time: 21:18:13 on Jan 11,2021
+# Loading sv_std.std
+# Loading work.filter_tb_wrapper
+# Loading work.filter_tb
+# Loading work.opo_package
+# Loading work.sine_gen_sv_unit
+# Loading work.sine_gen
+# Loading work.sine_lut_sv_unit
+# Loading work.sine_lut
+# Loading work.cascade_low_pass_filter_sv_unit
+# Loading work.cascade_low_pass_filter
+# Loading work.low_pass_filter_sv_unit
+# Loading work.moving_average_2
+run -all
+# Testing period                                       2...
+# 
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Testing period                                       2...
+# 
+run -all
+# Testing period                                       7...
+# 
