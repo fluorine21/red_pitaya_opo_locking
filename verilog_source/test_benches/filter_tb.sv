@@ -84,18 +84,18 @@ localparam [15:0] state_reset = 0,
 
 initial begin
 
-	cycle_counter <= 0;
-	cycle_timestamp <= 0;
-	rst <= 0;
+	cycle_counter = 0;
+	cycle_timestamp = 0;
+	rst = 0;
 	period = 2;
-	state <= state_reset;
+	state = state_reset;
 	
 	/* verilator lint_off WIDTH */
 	num_clock_cycles = 1024 * 2 * 10;
 	/* verilator lint_on WIDTH */
 	
 	//Get the output file ready 
-	outfile = $fopen("filter_results.csv", "w");
+	outfile = $fopen("/srv/verilator_results/filter_results.csv", "w");
 	//Write the preamble
 	$fwrite(outfile, "period, sine_out,");
 	for(i = 0; i < num_filters; i = i + 1) begin
@@ -117,29 +117,30 @@ always @ (posedge clk) begin
 	//Always increment the cycle counter
 	cycle_counter = cycle_counter + 1;
 	
-	
+	/* verilator lint_off CASEINCOMPLETE */
 	case(state)
+	/* verilator lint_on CASEINCOMPLETE */
 	
 		state_reset: begin
 			if(cycle_counter > 100) begin
-				rst <= 1;
-				state <= state_start_run;
+				rst = 1;
+				state = state_start_run;
 			end
 		end
 		
 		state_start_run: begin
 			
 			/* verilator lint_off WIDTH */
-			num_clock_cycles = 1024 * 2 * 10;
+			num_clock_cycles = 1024 * period * 10;
 			/* verilator lint_on WIDTH */
 			
 			//Store the current time so we can figure out when to stop
-			cycle_timestamp <= cycle_counter;
+			cycle_timestamp = cycle_counter;
 			
 			//Start the run
-			state <= state_run;
+			state = state_run;
 			
-			rst <= 1;
+			rst = 1;
 			
 			$display("Testing period %d...\n", period);
 			
@@ -148,12 +149,12 @@ always @ (posedge clk) begin
 		
 		state_run: begin
 		
-			rst <= 1;
+			rst = 1;
 		
 			//If we're done
 			if(cycle_counter - cycle_timestamp > num_clock_cycles) begin
-				state <= state_cleanup_run;
-				num_clock_cycles <= 100;//For reset
+				state = state_cleanup_run;
+				num_clock_cycles = 100;//For reset
 			end
 			
 			//Otherwise 
@@ -183,13 +184,13 @@ always @ (posedge clk) begin
 			end
 		
 			//Hold everything in reset
-			rst <= 0;
+			rst = 0;
 		
 			//If we're done
 			if(cycle_counter - cycle_timestamp > num_clock_cycles) begin
-				state <= state_start_run;
-				num_clock_cycles <= 100;//For reset
-				rst <= 1;
+				state = state_start_run;
+				num_clock_cycles = 100;//For reset
+				rst = 1;
 			end
 		
 		end
