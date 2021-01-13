@@ -7,37 +7,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 
 Top level modules:
 	sine_gen
 
-} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv
+} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_lut.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_lut.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
--- Compiling package cascade_low_pass_filter_sv_unit
+-- Compiling package sine_lut_sv_unit
 -- Importing package opo_package
--- Compiling module cascade_low_pass_filter
+-- Compiling module sine_lut
 
 Top level modules:
-	cascade_low_pass_filter
-
-} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb_wrapper.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb_wrapper.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
--- Compiling module filter_tb_wrapper
-
-Top level modules:
-	filter_tb_wrapper
-
-} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
--- Compiling package low_pass_filter_sv_unit
--- Importing package opo_package
--- Compiling module n_moving_average_filter
-
-Top level modules:
-	n_moving_average_filter
-
-} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
--- Compiling package opo_package
-
-Top level modules:
-	--none--
+	sine_lut
 
 } {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/moving_average_2.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/moving_average_2.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
@@ -48,14 +25,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 
 Top level modules:
 	moving_average_2
 
-} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/lock_in_amplifier.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/lock_in_amplifier.sv
+} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
--- Compiling package lock_in_amplifier_sv_unit
+-- Compiling package low_pass_filter_sv_unit
 -- Importing package opo_package
--- Compiling module lock_in_amplifier
+-- Compiling module n_moving_average_filter
 
 Top level modules:
-	lock_in_amplifier
+	n_moving_average_filter
 
 } {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/fifo_wrappers.sv {0 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/fifo_wrappers.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
@@ -66,7 +43,46 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 
 ** Error (suppressible): D:/repos/red_pitaya_opo_locking/verilog_source/rtl/fifo_wrappers.sv(228): (vlog-2388) 'gpio_in' already declared in this scope (gpio_fifo) at D:/repos/red_pitaya_opo_locking/verilog_source/rtl/fifo_wrappers.sv(228).
 ** Error: D:/repos/red_pitaya_opo_locking/verilog_source/rtl/fifo_wrappers.sv(228): (vlog-13294) Identifier must be declared with a port mode: gpio_in.
 
-} {6.0 7.0 8.0 9.0} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/axis_fifos.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/axis_fifos.sv
+} {6.0 7.0 8.0 9.0} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/lock_in_amplifier.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/lock_in_amplifier.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling package lock_in_amplifier_sv_unit
+-- Importing package opo_package
+-- Compiling module lock_in_amplifier
+
+Top level modules:
+	lock_in_amplifier
+
+} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling package cascade_low_pass_filter_sv_unit
+-- Importing package opo_package
+-- Compiling module cascade_low_pass_filter
+
+Top level modules:
+	cascade_low_pass_filter
+
+} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module filter_tb
+
+Top level modules:
+	filter_tb
+
+} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb_wrapper.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb_wrapper.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module filter_tb_wrapper
+
+Top level modules:
+	filter_tb_wrapper
+
+} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling package opo_package
+
+Top level modules:
+	--none--
+
+} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/axis_fifos.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/axis_fifos.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
 -- Compiling module axis_fifo
 -- Compiling module axis_async_fifo_def
@@ -74,14 +90,5 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 
 Top level modules:
 	axis_fifo
 	axis_async_fifo_def
-
-} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_lut.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_lut.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
--- Compiling package sine_lut_sv_unit
--- Importing package opo_package
--- Compiling module sine_lut
-
-Top level modules:
-	sine_lut
 
 } {} {}}

@@ -5,7 +5,7 @@ import opo_package::*;
 
 module cascade_low_pass_filter 
 #(
-parameter num_avg = 5,
+parameter avg_pow = 5,
 parameter num_stages = 8
 )
 (
@@ -36,7 +36,7 @@ for(i = 0; i < num_stages; i = i + 1) begin
 
 	//If this is the first stage then connect it to the input
 	if(i == 0) begin
-		moving_average_n #(num_avg) first_stage
+		moving_average_n #(avg_pow) first_stage
 		(
 			clk, rst,
 			
@@ -51,7 +51,7 @@ for(i = 0; i < num_stages; i = i + 1) begin
 	end
 	//Othwerwise connect it to the bus
 	else begin
-		moving_average_n #(num_avg) nth_stage
+		moving_average_n #(avg_pow) nth_stage
 		(
 			clk, rst,
 			

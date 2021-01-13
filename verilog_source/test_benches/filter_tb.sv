@@ -10,7 +10,7 @@ parameter config_reg_width = 128;
 
 //Experiment parameters
 parameter num_filters = 10; //From 0 stages to 2^12 stages
-parameter avg_pow = 2;
+parameter avg_pow = 4;
 
 
 reg [255:0] cycle_counter, cycle_timestamp, num_clock_cycles;

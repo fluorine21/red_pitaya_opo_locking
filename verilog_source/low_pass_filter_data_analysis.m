@@ -1,7 +1,12 @@
 clear;close all;clc;
 %Set up the nonsense for reading stupidly large files
 ds = tabularTextDatastore('filter_results.csv', 'RowDelimiter', '\n', 'TextType', 'string', 'DurationType', 'text', 'DatetimeType', 'text');
-ds.TextscanFormats = {'%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s'};
+num_tsf_ent = max(size(ds.TextscanFormats));
+tsf = {'%s'};
+while(max(size(tsf)) < num_tsf_ent)
+   tsf{end+1} = '%s'; 
+end
+ds.TextscanFormats = tsf;
 ds.ReadSize = 20000;
 
 %Try and do the highest frequency first
@@ -81,6 +86,7 @@ hold on
 
 %Then plot all responses
 for i = 1:min(size(waves))
+%for i = 1:3
     if(i == 1)
         plot(time(2:end), waves(:, i), '*', 'Linewidth', 2); 
     else
