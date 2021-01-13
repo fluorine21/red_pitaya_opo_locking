@@ -29,7 +29,7 @@ sine_gen sine_gen_inst
 );
 
 
-parameter num_filters = 10; //From 0 stages to 2^12 stages
+parameter num_filters = 13; //From 0 stages to 2^12 stages
 //Output bus for filters
 wire [(num_filters*word_width)-1:0] sample_output_bus;
 wire [num_filters-1:0] sample_output_bus_valid;
@@ -95,7 +95,8 @@ initial begin
 	/* verilator lint_on WIDTH */
 	
 	//Get the output file ready 
-	outfile = $fopen("/srv/verilator_results/filter_results.csv", "w");
+	//outfile = $fopen("/srv/verilator_results/filter_results.csv", "w");
+	outfile = $fopen("filter_results.csv", "w");
 	//Write the preamble
 	$fwrite(outfile, "period, sine_out,");
 	for(i = 0; i < num_filters; i = i + 1) begin

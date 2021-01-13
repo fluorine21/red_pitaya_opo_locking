@@ -9,37 +9,137 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA_pro/20.4
-vcascade_low_pass_filter
+vaxis_async_fifo
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 DXx4 work 11 opo_package 0 22 hoHc<boaWF7AJ7gVa4UeQ0
-DXx4 work 31 cascade_low_pass_filter_sv_unit 0 22 YZgXMJoE9K^PcK=AncFdi2
-Z2 !s110 1610339924
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z1 !s110 1610512419
+!i10b 1
+!s100 ESUY9Pg8KK6zBnk2Tf2W50
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IPO9a=`D?9iV<<?0`ah`Cl0
+S1
+Z3 dD:/repos/red_pitaya_opo_locking/modelsim_project
+Z4 w1610248602
+Z5 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/fifo_wrappers.sv
+Z6 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/fifo_wrappers.sv
+!i122 33
+L0 110 109
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OV;L;2020.3;71
 r1
 !s85 0
-!i10b 1
-!s100 M6Ni6EjVVzm@LWEFZRaiH1
-I0OMNhoVE4l_UWJcjInV;o1
-!s105 cascade_low_pass_filter_sv_unit
-S1
-Z4 dD:/repos/red_pitaya_opo_locking/modelsim_project
-Z5 w1610339919
-Z6 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv
-Z7 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv
-!i122 12
-L0 6 64
-Z8 OV;L;2020.3;71
 31
-Z9 !s108 1610339924.000000
-Z10 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv|
-Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv|
+Z9 !s108 1610512419.000000
+Z10 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/rtl/fifo_wrappers.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/rtl/fifo_wrappers.sv|
 !i113 1
 Z12 o-work work -sv
 Z13 tCvgOpt 0
-Xcascade_low_pass_filter_sv_unit
+vaxis_async_fifo_def
+R0
+Z14 !s110 1610511357
+!i10b 1
+!s100 H?[9Tz>ClOH?T3T0JYYoi2
+R2
+IYI0jOOEQCIBaKaH=do6hQ2
+S1
+R3
+Z15 w1604519193
+Z16 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/axis_fifos.sv
+Z17 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/axis_fifos.sv
+!i122 23
+L0 329 483
+R7
+R8
+r1
+!s85 0
+31
+Z18 !s108 1610511357.000000
+Z19 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/rtl/axis_fifos.sv|
+Z20 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/rtl/axis_fifos.sv|
+!i113 1
+R12
+R13
+vaxis_fifo
+R0
+R14
+!i10b 1
+!s100 R677DdiRP^W3Hb<QOlS0Y2
+R2
+IA3l:TMcO;mL>LN8AllcDT0
+S1
+R3
+R15
+R16
+R17
+!i122 23
+L0 27 268
+R7
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R12
+R13
+vaxis_sync_fifo
 R0
 R1
+!i10b 1
+!s100 AzeVi:[khFaz^WDB>:`8E0
 R2
+IQ]`[]^3i4OflP5LF9aa5i3
+S1
+R3
+R4
+R5
+R6
+!i122 33
+L0 3 105
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vcascade_low_pass_filter
+R0
+Z21 DXx4 work 11 opo_package 0 22 hoHc<boaWF7AJ7gVa4UeQ0
+DXx4 work 31 cascade_low_pass_filter_sv_unit 0 22 YZgXMJoE9K^PcK=AncFdi2
+Z22 !s110 1610511358
+R7
+r1
+!s85 0
+!i10b 1
+!s100 gV>PQ32ghgk0Jo_nz@23@1
+I=hV^]1Z`d`LGFU`Die:2;3
+!s105 cascade_low_pass_filter_sv_unit
+S1
+R3
+Z23 w1610395594
+Z24 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv
+Z25 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv
+!i122 24
+L0 6 64
+R8
+31
+R18
+Z26 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv|
+Z27 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/rtl/cascade_low_pass_filter.sv|
+!i113 1
+R12
+R13
+Xcascade_low_pass_filter_sv_unit
+R0
+R21
+R22
 VYZgXMJoE9K^PcK=AncFdi2
 r1
 !s85 0
@@ -48,48 +148,48 @@ r1
 IYZgXMJoE9K^PcK=AncFdi2
 !i103 1
 S1
-R4
-R5
-R6
-R7
-!i122 12
-Z14 L0 1 0
+R3
+R23
+R24
+R25
+!i122 24
+Z28 L0 1 0
 R8
 31
-R9
-R10
-R11
+R18
+R26
+R27
 !i113 1
 R12
 R13
 vfilter_tb
 R0
-!s110 1610421213
+R1
 !i10b 1
-!s100 :RlIA0dff4k@nm3imSbXQ2
-Z15 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I5iYekz[c;dEUNGLXm=AeF1
+!s100 _bb:`_`<;e4ZZiCjR=a[:2
+R2
+IoKdKVzA6k8eQGmgj>GmYl2
 S1
-R4
-w1610421204
-Z16 8D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv
-Z17 FD:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv
-!i122 20
-L0 5 218
 R3
+w1610512415
+Z29 8D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv
+Z30 FD:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv
+!i122 34
+L0 5 220
+R7
 R8
 r1
 !s85 0
 31
-!s108 1610421213.000000
-Z18 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv|
-Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv|
+R9
+Z31 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv|
+Z32 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv|
 !i113 1
 R12
 R13
 Xfilter_tb_sv_unit
 R0
-R1
+R21
 !s110 1610345147
 Vb?Rf<`dj<5=lJd^1?bGYO1
 r1
@@ -99,17 +199,17 @@ r1
 Ib?Rf<`dj<5=lJd^1?bGYO1
 !i103 1
 S1
-R4
+R3
 w1610345139
-R16
-R17
+R29
+R30
 !i122 18
-R14
+R28
 R8
 31
 !s108 1610345147.000000
-R18
-R19
+R31
+R32
 !i113 1
 R12
 R13
@@ -118,16 +218,16 @@ R0
 !s110 1610420983
 !i10b 1
 !s100 eW`MWOQ7=Ql5ZRTFE[Vbz3
-R15
+R2
 IR;h95C<D4]]VK2=O;;E<13
 S1
-R4
-w1610420744
+R3
+Z33 w1610420744
 8D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb_wrapper.sv
 FD:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb_wrapper.sv
 !i122 19
 L0 4 18
-R3
+R7
 R8
 r1
 !s85 0
@@ -138,83 +238,162 @@ r1
 !i113 1
 R12
 R13
-Xlow_pass_filter_sv_unit
+vlock_in_amplifier
 R0
-R1
-Z20 !s110 1610339422
-V4CUQXGfYlb[[AzYLPO>6W1
+R21
+DXx4 work 25 lock_in_amplifier_sv_unit 0 22 l4jhEFI3dAmMcJ_^RzL[n2
+R22
+R7
 r1
 !s85 0
 !i10b 1
-!s100 jieG_10`FMzaA<Km@?=hK0
-I4CUQXGfYlb[[AzYLPO>6W1
-!i103 1
+!s100 :[nnbL7T2JgLaO;KHPRaz2
+IK2f74^F:GIdzz_aTf0:CU2
+!s105 lock_in_amplifier_sv_unit
 S1
-R4
-Z21 w1610339413
-Z22 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv
-Z23 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv
-!i122 8
-L0 2 0
+R3
+Z34 w1610386566
+Z35 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/lock_in_amplifier.sv
+Z36 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/lock_in_amplifier.sv
+!i122 26
+L0 5 50
 R8
 31
-Z24 !s108 1610339421.000000
-Z25 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv|
-Z26 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv|
+Z37 !s108 1610511358.000000
+Z38 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/rtl/lock_in_amplifier.sv|
+Z39 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/rtl/lock_in_amplifier.sv|
+!i113 1
+R12
+R13
+Xlock_in_amplifier_sv_unit
+R0
+R21
+R22
+Vl4jhEFI3dAmMcJ_^RzL[n2
+r1
+!s85 0
+!i10b 1
+!s100 FiTTWTd8C;E<PgHco1iCS0
+Il4jhEFI3dAmMcJ_^RzL[n2
+!i103 1
+S1
+R3
+R34
+R35
+R36
+!i122 26
+Z40 L0 2 0
+R8
+31
+R37
+R38
+R39
+!i113 1
+R12
+R13
+Xlow_pass_filter_sv_unit
+R0
+R21
+R22
+V:iAA:^Cz=GT^:W;>5I=Pd0
+r1
+!s85 0
+!i10b 1
+!s100 ;MVgn4ljPBd:=`e_D6b2M0
+I:iAA:^Cz=GT^:W;>5I=Pd0
+!i103 1
+S1
+R3
+R23
+Z41 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv
+Z42 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv
+!i122 27
+R40
+R8
+31
+R37
+Z43 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv|
+Z44 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/rtl/low_pass_filter.sv|
 !i113 1
 R12
 R13
 vmoving_average_2
 R0
-R1
-Z27 DXx4 work 23 low_pass_filter_sv_unit 0 22 4CUQXGfYlb[[AzYLPO>6W1
-R20
-R3
+R21
+DXx4 work 24 moving_average_2_sv_unit 0 22 <j@PE2B;K2E7FUmM8Le7h2
+Z45 !s110 1610511964
+R7
 r1
 !s85 0
 !i10b 1
-!s100 GSC1ezbDn<Y@bYb3acOo`2
-I5TUQhHJi[?;6l^=ZHkBI02
-Z28 !s105 low_pass_filter_sv_unit
+!s100 H1YDOBmz4lO;2onlj=V2h0
+Ik4[aojzk277I7Ogm^O?1d1
+!s105 moving_average_2_sv_unit
 S1
-R4
-R21
-R22
-R23
-!i122 8
-L0 159 61
+R3
+Z46 w1610511959
+Z47 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/moving_average_2.sv
+Z48 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/moving_average_2.sv
+!i122 32
+L0 6 58
 R8
 31
-R24
-R25
-R26
+Z49 !s108 1610511964.000000
+Z50 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/rtl/moving_average_2.sv|
+Z51 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/rtl/moving_average_2.sv|
+!i113 1
+R12
+R13
+Xmoving_average_2_sv_unit
+R0
+R21
+R45
+V<j@PE2B;K2E7FUmM8Le7h2
+r1
+!s85 0
+!i10b 1
+!s100 `]5ok^79Jin^hN<CJ;Yjm2
+I<j@PE2B;K2E7FUmM8Le7h2
+!i103 1
+S1
+R3
+R46
+R47
+R48
+!i122 32
+R28
+R8
+31
+R49
+R50
+R51
 !i113 1
 R12
 R13
 vn_moving_average_filter
 R0
-R1
-R27
-R20
-R3
+R21
+DXx4 work 23 low_pass_filter_sv_unit 0 22 :iAA:^Cz=GT^:W;>5I=Pd0
+R22
+R7
 r1
 !s85 0
 !i10b 1
 !s100 ^eH;W;NVhi>feDXXkOlY=2
 ICeii7`?TmjikXGSfIY5c`1
-R28
+!s105 low_pass_filter_sv_unit
 S1
-R4
-R21
-R22
+R3
 R23
-!i122 8
+R41
+R42
+!i122 27
 L0 8 147
 R8
 31
-R24
-R25
-R26
+R37
+R43
+R44
 !i113 1
 R12
 R13
@@ -223,15 +402,15 @@ R0
 !s110 1610338828
 !i10b 1
 !s100 Hn^7MNX12Zl@P8k1C54Ba1
-R15
+R2
 IhoHc<boaWF7AJ7gVa4UeQ0
 S1
-R4
+R3
 w1610338804
 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv
 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv
 !i122 1
-R14
+R28
 VhoHc<boaWF7AJ7gVa4UeQ0
 R8
 r1
@@ -245,35 +424,35 @@ R12
 R13
 vsine_gen
 R0
-R1
+R21
 DXx4 work 16 sine_gen_sv_unit 0 22 B[6cc@B5UOLUN]eQzAniI3
-Z29 !s110 1610339217
-R3
+Z52 !s110 1610511359
+R7
 r1
 !s85 0
 !i10b 1
-!s100 ^mhW>BAU[n40haBdQ8hhE2
-ISGaBJEUfE]Gl5f]2fQ4Di1
+!s100 OmR33zbM9:ok_dWQjbDfA1
+I8E;J>ole=ebd?SGbg7SgZ2
 !s105 sine_gen_sv_unit
 S1
-R4
-Z30 w1610339214
-Z31 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_gen.sv
-Z32 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_gen.sv
-!i122 5
+R3
+R33
+Z53 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_gen.sv
+Z54 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_gen.sv
+!i122 28
 L0 6 55
 R8
 31
-Z33 !s108 1610339217.000000
-Z34 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_gen.sv|
-Z35 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_gen.sv|
+R37
+Z55 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_gen.sv|
+Z56 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_gen.sv|
 !i113 1
 R12
 R13
 Xsine_gen_sv_unit
 R0
-R1
-R29
+R21
+R52
 VB[6cc@B5UOLUN]eQzAniI3
 r1
 !s85 0
@@ -282,26 +461,26 @@ r1
 IB[6cc@B5UOLUN]eQzAniI3
 !i103 1
 S1
-R4
-R30
-R31
-R32
-!i122 5
-Z36 L0 4 0
+R3
+R33
+R53
+R54
+!i122 28
+Z57 L0 4 0
 R8
 31
-R33
-R34
-R35
+R37
+R55
+R56
 !i113 1
 R12
 R13
 vsine_lut
 R0
-R1
+R21
 DXx4 work 16 sine_lut_sv_unit 0 22 i25fJK59]cMg`ZY5NIkN<1
-Z37 !s110 1610339167
-R3
+Z58 !s110 1610339167
+R7
 r1
 !s85 0
 !i10b 1
@@ -309,24 +488,24 @@ r1
 I=^YgC^ndb`<@8e2a4cVWX2
 !s105 sine_lut_sv_unit
 S1
-R4
-Z38 w1610339151
-Z39 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_lut.sv
-Z40 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_lut.sv
+R3
+Z59 w1610339151
+Z60 8D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_lut.sv
+Z61 FD:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_lut.sv
 !i122 4
 L0 6 1038
 R8
 31
-Z41 !s108 1610339167.000000
-Z42 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_lut.sv|
-Z43 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_lut.sv|
+Z62 !s108 1610339167.000000
+Z63 !s107 D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_lut.sv|
+Z64 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/red_pitaya_opo_locking/verilog_source/rtl/sine_lut.sv|
 !i113 1
 R12
 R13
 Xsine_lut_sv_unit
 R0
-R1
-R37
+R21
+R58
 Vi25fJK59]cMg`ZY5NIkN<1
 r1
 !s85 0
@@ -335,17 +514,17 @@ r1
 Ii25fJK59]cMg`ZY5NIkN<1
 !i103 1
 S1
-R4
-R38
-R39
-R40
+R3
+R59
+R60
+R61
 !i122 4
-R36
+R57
 R8
 31
-R41
-R42
-R43
+R62
+R63
+R64
 !i113 1
 R12
 R13

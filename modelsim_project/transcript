@@ -426,3 +426,79 @@ run -all
 # 
 # Testing period                                     127...
 # 
+run -all
+quit -sim
+# End time: 20:15:06 on Jan 12,2021, Elapsed time: 22:56:53
+# Errors: 0, Warnings: 1
+# Compile of filter_tb.sv was successful.
+# Compile of moving_average_2.sv was successful.
+# Compile of axis_fifos.sv was successful.
+# Compile of cascade_low_pass_filter.sv was successful.
+# Compile of fifo_wrappers.sv failed with 3 errors.
+# Compile of lock_in_amplifier.sv was successful.
+# Compile of low_pass_filter.sv was successful.
+# Compile of sine_gen.sv was successful.
+# 6 compiles, 1 failed with 3 errors.
+vsim -gui work.filter_tb_wrapper
+# vsim -gui work.filter_tb_wrapper 
+# Start time: 20:16:18 on Jan 12,2021
+# Loading sv_std.std
+# Loading work.filter_tb_wrapper
+# Loading work.filter_tb
+# Loading work.opo_package
+# Loading work.sine_gen_sv_unit
+# Loading work.sine_gen
+# Loading work.sine_lut_sv_unit
+# Loading work.sine_lut
+# Loading work.cascade_low_pass_filter_sv_unit
+# Loading work.cascade_low_pass_filter
+# Loading work.moving_average_2_sv_unit
+# Loading work.moving_average_2
+run -all
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "/srv/verilator_results/filter_results.csv" for writing.
+# No such file or directory. (errno = ENOENT)    : D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv(98)
+#    Time: 0 ps  Iteration: 0  Instance: /filter_tb_wrapper/dut
+# Testing period                                       2...
+# 
+# Testing period                                       7...
+# 
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Warning: (vsim-3533) [FOFIW] - Failed to open file "/srv/verilator_results/filter_results.csv" for writing.
+# No such file or directory. (errno = ENOENT)    : D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb.sv(98)
+#    Time: 0 ps  Iteration: 0  Instance: /filter_tb_wrapper/dut
+# Testing period                                       2...
+# 
+# Compile of fifo_wrappers.sv failed with 3 errors.
+# Compile of filter_tb.sv was successful.
+# 2 compiles, 1 failed with 3 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.filter_tb
+run -all
+# Testing period                                       2...
+# 
+# Testing period                                       7...
+# 
+# Compile of fifo_wrappers.sv failed with 3 errors.
+# Compile of moving_average_2.sv was successful.
+# 2 compiles, 1 failed with 3 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.moving_average_2_sv_unit
+# Loading work.moving_average_2
+run -all
+# Testing period                                       2...
+# 
+# Testing period                                       7...
+# 
+# Compile of fifo_wrappers.sv failed with 3 errors.
+# Compile of filter_tb.sv was successful.
+# 2 compiles, 1 failed with 3 errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.filter_tb
+run -all
+# Testing period                                       2...
+# 

@@ -80,7 +80,7 @@ hold on
 
 
 %Then plot all responses
-for i = 3:4
+for i = 1:min(size(waves))
     plot(time(2:end), waves(:, i), 'Linewidth', 2);   
 end
 

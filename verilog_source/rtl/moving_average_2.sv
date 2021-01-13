@@ -19,10 +19,10 @@ module moving_average_2
 
 reg [word_width-1:0] sample_1;
 
-
-wire [word_width-1:0] sample_sum = sample_in + sample_1;
+//Sign extend to fix math
+wire [word_width:0] sample_sum = {sample_in[word_width-1],sample_in} + {sample_1[word_width-1],sample_1};
 //Enforcing arithmetic left shift here by repeating MSB
-wire [word_width-1:0] sample_avg = {sample_sum[word_width-1], sample_sum[word_width-1:1]};
+wire [word_width-1:0] sample_avg = {sample_sum[word_width], sample_sum[word_width:1]};
 
 
 always @ (posedge clk or negedge rst) begin
