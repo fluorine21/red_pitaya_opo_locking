@@ -2,11 +2,15 @@
 //import OPO_PACKAGE::*;
 
 //Used for checking the frequency response of the filter
-module filter_tb(input wire clk);
+module filter_tb#(parameter is_modelsim = 0)(input wire clk);
 
 parameter word_width = 16;
 parameter sine_lut_width = 10;
 parameter config_reg_width = 128;
+
+//Experiment parameters
+parameter num_filters = 10; //From 0 stages to 2^12 stages
+parameter avg_pow = 2;
 
 
 reg [255:0] cycle_counter, cycle_timestamp, num_clock_cycles;
@@ -29,7 +33,7 @@ sine_gen sine_gen_inst
 );
 
 
-parameter num_filters = 13; //From 0 stages to 2^12 stages
+
 //Output bus for filters
 wire [(num_filters*word_width)-1:0] sample_output_bus;
 wire [num_filters-1:0] sample_output_bus_valid;
@@ -39,7 +43,7 @@ for(k = 0; k < num_filters; k = k + 1) begin
 	//If we're on the passthrough filter
 	if(k == 0) begin
 	
-		cascade_low_pass_filter #(0) pass_thru_filter_inst
+		cascade_low_pass_filter #(avg_pow, 0) pass_thru_filter_inst
 		(
 			clk, rst,
 			
@@ -55,7 +59,7 @@ for(k = 0; k < num_filters; k = k + 1) begin
 	end
 	else begin
 		
-		cascade_low_pass_filter #(2**(k-1)) active_filter_inst
+		cascade_low_pass_filter #(avg_pow, 2**(k-1)) active_filter_inst
 		(
 			clk, rst,
 			
@@ -95,8 +99,12 @@ initial begin
 	/* verilator lint_on WIDTH */
 	
 	//Get the output file ready 
-	//outfile = $fopen("/srv/verilator_results/filter_results.csv", "w");
-	outfile = $fopen("filter_results.csv", "w");
+	if(is_modelsim) begin
+		outfile = $fopen("filter_results.csv", "w");
+	end
+	else begin
+		outfile = $fopen("/srv/verilator_results/filter_results.csv", "w");
+	end
 	//Write the preamble
 	$fwrite(outfile, "period, sine_out,");
 	for(i = 0; i < num_filters; i = i + 1) begin

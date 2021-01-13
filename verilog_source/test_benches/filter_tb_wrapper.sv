@@ -5,7 +5,7 @@ module filter_tb_wrapper();
 
 reg clk;
 
-filter_tb dut(clk);
+filter_tb #(1) dut(clk);
 
 initial begin
 	clk = 0;
