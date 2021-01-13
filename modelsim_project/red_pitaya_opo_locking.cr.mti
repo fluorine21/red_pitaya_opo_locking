@@ -1,4 +1,11 @@
-D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv
+D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb_wrapper.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/test_benches/filter_tb_wrapper.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module filter_tb_wrapper
+
+Top level modules:
+	filter_tb_wrapper
+
+} {} {}} D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv {1 {vlog -work work -sv -stats=none D:/repos/red_pitaya_opo_locking/verilog_source/rtl/opo_package.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
 -- Compiling package opo_package
 
