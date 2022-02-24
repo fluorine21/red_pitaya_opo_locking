@@ -1,0 +1,256 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Jan 30 15:08:08 2021
+# Process ID: 5528
+# Current directory: D:/repos/RePLIA/fpga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12948 D:\repos\RePLIA\fpga\LockIn.xpr
+# Log file: D:/repos/RePLIA/fpga/vivado.log
+# Journal file: D:/repos/RePLIA/fpga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/repos/RePLIA/fpga/LockIn.xpr
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'D:/repos/RePLIA/fpga/LockIn.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 1001.512 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {D:/repos/RePLIA/fpga/LockIn.srcs/sources_1/bd/system/system.bd}
+Reading block design file <D:/repos/RePLIA/fpga/LockIn.srcs/sources_1/bd/system/system.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - ps_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_ps_0_0 
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_util_ds_buf_0_0 
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_2
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_util_ds_buf_0_2 
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_3
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - sweep_cos_gen
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_0_1 
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_1_1 
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_2
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_1_6 
+Adding component instance block -- xilinx.com:module_ref:accumulator_limited:1.0 - sweep_gen
+INFO: [BD 41-1728] Could not find a module with name: system_accumulator_limited_0_0 
+Adding component instance block -- xilinx.com:module_ref:mode_control:1.0 - mode_control_0
+INFO: [BD 41-1728] Could not find a module with name: system_mode_control_0_0 
+Adding component instance block -- xilinx.com:module_ref:ttl_insert:1.0 - ttl_insert_0
+INFO: [BD 41-1728] Could not find a module with name: system_ttl_insert_0_0 
+Adding component instance block -- xilinx.com:module_ref:simp_counter:1.0 - loop_counter
+INFO: [BD 41-1728] Could not find a module with name: system_simp_counter_0_0 
+Adding component instance block -- xilinx.com:module_ref:adc_2comp:1.0 - adc_2comp_0
+INFO: [BD 41-1728] Could not find a module with name: system_adc_2comp_0_0 
+Adding component instance block -- xilinx.com:module_ref:clk_switch:1.0 - clk_switch_0
+INFO: [BD 41-1728] Could not find a module with name: system_clk_switch_0_0 
+Adding component instance block -- xilinx.com:module_ref:dac_switch:1.0 - dac_switch_0
+INFO: [BD 41-1728] Could not find a module with name: system_dac_switch_0_0 
+Adding component instance block -- xilinx.com:module_ref:digital_IO_connect:1.0 - digital_IO_connect_0
+INFO: [BD 41-1728] Could not find a module with name: system_digital_IO_connect_0_0 
+Adding component instance block -- xilinx.com:module_ref:two_clk_accum:1.0 - averaging_timer
+INFO: [BD 41-1728] Could not find a module with name: system_two_clk_accum_0_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_ps_0_axi_periph_0 
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_0_125M
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_rst_clk_wiz_0_125M_0 
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_axi_mem_intercon_0 
+Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_a_x
+INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_0 
+Adding component instance block -- xilinx.com:module_ref:mem_manager:1.0 - mem_manager_0
+INFO: [BD 41-1728] Could not find a module with name: system_mem_manager_0_0 
+Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_a_x
+INFO: [BD 41-1728] Could not find a module with name: system_data_padder_0_0 
+Adding component instance block -- xilinx.com:module_ref:highest_bit:1.0 - highest_bit_0
+INFO: [BD 41-1728] Could not find a module with name: system_highest_bit_0_0 
+Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_a_y
+INFO: [BD 41-1728] Could not find a module with name: system_data_padder_0_1 
+Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_a_amp
+INFO: [BD 41-1728] Could not find a module with name: system_data_padder_1_0 
+Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_a_phase
+INFO: [BD 41-1728] Could not find a module with name: system_data_padder_2_0 
+Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_b_X
+INFO: [BD 41-1728] Could not find a module with name: system_data_padder_3_0 
+Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_b_Y
+INFO: [BD 41-1728] Could not find a module with name: system_data_padder_4_0 
+Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_b_amp
+INFO: [BD 41-1728] Could not find a module with name: system_data_padder_5_0 
+Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_b_phase
+INFO: [BD 41-1728] Could not find a module with name: system_data_padder_6_0 
+Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_a_y
+INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_2 
+Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_a_amp
+INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_3 
+Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_a_phase
+INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_4 
+Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_b_x
+INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_5 
+Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_b_y
+INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_6 
+Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_b_amp
+INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_7 
+Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_b_phase
+INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_8 
+Adding component instance block -- xilinx.com:module_ref:two_clk_accum:1.0 - sample_clk
+INFO: [BD 41-1728] Could not find a module with name: system_two_clk_accum_0_1 
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_xbar_0 
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_auto_pc_1 
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:user:AXI_inout:1.0 - AXI_inout_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_AXI_inout_0_0 
+Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - phase_inc
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'.
+INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_0 
+Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - dac_b_mult
+INFO: [BD 41-1728] Could not find a module with name: system_default_val_1_0 
+Adding component instance block -- xilinx.com:module_ref:split_AXI:1.0 - Output_mults
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'.
+INFO: [BD 41-1728] Could not find a module with name: system_split_AXI_0_1 
+Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - avg_inc_cnt
+INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_1 
+Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - mode_flags
+INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_2 
+Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - sweep_min
+INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_3 
+Adding component instance block -- xilinx.com:module_ref:out_val:1.0 - out_val_0
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'.
+INFO: [BD 41-1728] Could not find a module with name: system_out_val_0_3 
+Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - sweep_max
+INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_4 
+Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - sweep_add
+INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_5 
+Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - amp_mult
+INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_6 
+Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - dac_a_mult
+INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_7 
+Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - mod_phase_def
+INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_8 
+Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - sample_cnt
+Adding component instance block -- xilinx.com:module_ref:split_AXI:1.0 - mod_phase
+INFO: [BD 41-1728] Could not find a module with name: system_split_AXI_0_3 
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_0_5 
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_1_2 
+Adding component instance block -- xilinx.com:ip:c_addsub:12.0 - c_addsub_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_c_addsub_0_1 
+Adding component instance block -- xilinx.com:ip:cordic:6.0 - sqrt
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_cordic_0_0 
+Adding component instance block -- xilinx.com:ip:cordic:6.0 - atan
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_cordic_1_1 
+Adding component instance block -- xilinx.com:module_ref:out_val:1.0 - out_val_0
+INFO: [BD 41-1728] Could not find a module with name: system_out_val_0_2 
+Adding component instance block -- xilinx.com:module_ref:comb_AXI:1.0 - comb_AXI_0
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'.
+INFO: [BD 41-1728] Could not find a module with name: system_comb_AXI_0_1 
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_1_5 
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_0_7 
+Adding component instance block -- xilinx.com:module_ref:moving_average:1.0 - moving_average_0
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'out_data2' has a dependency on the module local parameter or undefined parameter 'reg_bits'.
+WARNING: [IP_Flow 19-587] [HDL Parser] HDL port or parameter 'in_data2' has a dependency on the module local parameter or undefined parameter 'reg_bits'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'.
+INFO: [BD 41-1728] Could not find a module with name: system_moving_average_0_4 
+Adding component instance block -- xilinx.com:module_ref:simple_summation:1.0 - simple_summation_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'.
+INFO: [BD 41-1728] Could not find a module with name: system_simple_summation_0_4 
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_1_4 
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_0_6 
+Adding component instance block -- xilinx.com:module_ref:moving_average:1.0 - moving_average_0
+INFO: [BD 41-1728] Could not find a module with name: system_moving_average_0_2 
+Adding component instance block -- xilinx.com:module_ref:simple_summation:1.0 - simple_summation_0
+INFO: [BD 41-1728] Could not find a module with name: system_simple_summation_0_2 
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_0_4 
+Adding component instance block -- xilinx.com:ip:c_addsub:12.0 - c_addsub_0
+Adding component instance block -- xilinx.com:ip:cordic:6.0 - sqrt
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_cordic_0_1 
+Adding component instance block -- xilinx.com:ip:cordic:6.0 - atan
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_cordic_1_0 
+Adding component instance block -- xilinx.com:module_ref:comb_AXI:1.0 - comb_AXI_0
+Adding component instance block -- xilinx.com:module_ref:out_val:1.0 - out_val_0
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0
+Adding component instance block -- xilinx.com:module_ref:moving_average:1.0 - moving_average_0
+Adding component instance block -- xilinx.com:module_ref:simple_summation:1.0 - simple_summation_0
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1
+Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0
+Adding component instance block -- xilinx.com:module_ref:moving_average:1.0 - moving_average_0
+INFO: [BD 41-1728] Could not find a module with name: system_moving_average_0_3 
+Adding component instance block -- xilinx.com:module_ref:simple_summation:1.0 - simple_summation_0
+INFO: [BD 41-1728] Could not find a module with name: system_simple_summation_0_3 
+Adding component instance block -- xilinx.com:ip:dds_compiler:6.0 - dds_compiler_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_dds_compiler_0_0 
+Adding component instance block -- xilinx.com:ip:dds_compiler:6.0 - dds_compiler_1
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_dds_compiler_0_1 
+Adding component instance block -- xilinx.com:ip:c_addsub:12.0 - c_addsub_0
+INFO: [BD 41-434] Could not find an IP with XCI file by name: system_c_addsub_0_2 
+Adding component instance block -- xilinx.com:module_ref:freq_doubler:1.0 - freq_doubler_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'.
+INFO: [BD 41-1728] Could not find a module with name: system_freq_doubler_0_0 
+Adding component instance block -- xilinx.com:module_ref:out_val:1.0 - out_val_0
+Adding component instance block -- xilinx.com:module_ref:split_AXI:1.0 - split_AXI_0
+INFO: [BD 41-1728] Could not find a module with name: system_split_AXI_0_0 
+Adding component instance block -- xilinx.com:module_ref:split_AXI:1.0 - split_AXI_1
+INFO: [BD 41-1728] Could not find a module with name: system_split_AXI_0_2 
+Adding component instance block -- xilinx.com:module_ref:two_clk_accum:1.0 - phase_gen
+INFO: [BD 41-1728] Could not find a module with name: system_two_clk_accum_1_0 
+Successfully read diagram <system> from block design file <D:/repos/RePLIA/fpga/LockIn.srcs/sources_1/bd/system/system.bd>
+INFO: [BD 41-433] 
+Design successfully migrated to use XCI files...
+open_bd_design: Time (s): cpu = 00:01:06 ; elapsed = 00:11:02 . Memory (MB): peak = 1098.465 ; gain = 96.953
+update_compile_order -fileset sources_1

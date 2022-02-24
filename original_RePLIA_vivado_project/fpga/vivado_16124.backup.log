@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jan 14 20:27:27 2021
+# Process ID: 16124
+# Current directory: D:/repos/RePLIA/fpga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23236 D:\repos\RePLIA\fpga\LockIn.xpr
+# Log file: D:/repos/RePLIA/fpga/vivado.log
+# Journal file: D:/repos/RePLIA/fpga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only D:/repos/RePLIA/fpga/LockIn.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Documents/Dropbox/PDRA-NVMag/FPGA/LockIn' since last save.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/repos/RePLIA/fpga/LockIn.ip_user_files', nor could it be found using path 'E:/Documents/Dropbox/PDRA-NVMag/FPGA/LockIn/LockIn.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [BD 41-1663] The design 'system.bd' cannot be modified due to following reason(s):
+* Project is read-only. Please run 'save_project_as' before making any change to the bd-design. 
+
+WARNING: [Project 1-229] Project 'LockIn.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/repos/RePLIA/fpga/custom_ip/AXI_inout_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 1002.555 ; gain = 0.000
+update_compile_order -fileset sources_1

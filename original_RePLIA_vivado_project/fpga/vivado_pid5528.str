@@ -1,0 +1,774 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 5528
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Jan 30 15:08:29 PST 2021
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 3840x2160
+Screen resolution (DPI): 175
+Available screens: 2
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=21
+Scale size: 37
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	James
+User home directory: C:/Users/James
+User working directory: D:/repos/RePLIA/fpga
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/James/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/James/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/James/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/repos/RePLIA/fpga/vivado.log
+Vivado journal file location: 	D:/repos/RePLIA/fpga/vivado.jou
+Engine tmp dir: 	D:/repos/RePLIA/fpga/.Xil/Vivado-5528-JAMES-PC
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_SDK: C:/Xilinx/Vitis/2020.2
+XILINX_VITIS: C:/Xilinx/Vitis/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	144 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,014 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\repos\RePLIA\fpga\LockIn.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project D:/repos/RePLIA/fpga/LockIn.xpr 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/repos/RePLIA/fpga/LockIn.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 125 MB (+128289kb) [00:00:13]
+// [Engine Memory]: 1,014 MB (+912083kb) [00:00:13]
+// [GUI Memory]: 146 MB (+15455kb) [00:00:14]
+// WARNING: HEventQueue.dispatchEvent() is taking  3785 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,014 MB. GUI used memory: 86 MB. Current time: 1/30/21, 3:08:33 PM PST
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 1001.512 ; gain = 0.000 
+// Project name: LockIn; location: D:/repos/RePLIA/fpga; part: xc7z010clg400-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 163 MB (+10423kb) [00:00:25]
+// Elapsed time: 454 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i : system (system.bd)]", 2, false, false, false, false, false, true); // D - Double Click
+// bz (cr):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {D:/repos/RePLIA/fpga/LockIn.srcs/sources_1/bd/system/system.bd} 
+// Tcl Message: Reading block design file <D:/repos/RePLIA/fpga/LockIn.srcs/sources_1/bd/system/system.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - ps_0 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_ps_0_0  
+// TclEventType: LOAD_FEATURE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_0 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_util_ds_buf_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_2 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_util_ds_buf_0_2  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_3 Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - sweep_cos_gen 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_0_1  
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_1_1  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_2 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_1_6  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:accumulator_limited:1.0 - sweep_gen 
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_accumulator_limited_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:mode_control:1.0 - mode_control_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_mode_control_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:ttl_insert:1.0 - ttl_insert_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_ttl_insert_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:simp_counter:1.0 - loop_counter 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_simp_counter_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:adc_2comp:1.0 - adc_2comp_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_adc_2comp_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:clk_switch:1.0 - clk_switch_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_clk_switch_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:dac_switch:1.0 - dac_switch_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_dac_switch_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:digital_IO_connect:1.0 - digital_IO_connect_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_digital_IO_connect_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:two_clk_accum:1.0 - averaging_timer 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_two_clk_accum_0_0  INFO: [BD 41-434] Could not find an IP with XCI file by name: system_ps_0_axi_periph_0  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_0_125M 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_rst_clk_wiz_0_125M_0  INFO: [BD 41-434] Could not find an IP with XCI file by name: system_axi_mem_intercon_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_a_x 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:mem_manager:1.0 - mem_manager_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_mem_manager_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_a_x 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_padder_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:highest_bit:1.0 - highest_bit_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_highest_bit_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_a_y 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_padder_0_1  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_a_amp 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_padder_1_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_a_phase 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_padder_2_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_b_X 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_padder_3_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_b_Y 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_padder_4_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_b_amp 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_padder_5_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_padder:1.0 - ch_b_phase 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_padder_6_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_a_y 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_2  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_a_amp 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_3  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_a_phase 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_4  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_b_x 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_5  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_b_y 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_6  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_b_amp 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_7  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:data_writer:1.0 - data_writer_b_phase 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_data_writer_0_8  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:two_clk_accum:1.0 - sample_clk 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_two_clk_accum_0_1  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_xbar_0  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_auto_pc_1  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding component instance block -- xilinx.com:user:AXI_inout:1.0 - AXI_inout_0 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_AXI_inout_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - phase_inc 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'. INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - dac_b_mult 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_default_val_1_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:split_AXI:1.0 - Output_mults 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'. INFO: [BD 41-1728] Could not find a module with name: system_split_AXI_0_1  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - avg_inc_cnt 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_1  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - mode_flags 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_2  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - sweep_min 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_3  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:out_val:1.0 - out_val_0 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'. INFO: [BD 41-1728] Could not find a module with name: system_out_val_0_3  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - sweep_max 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_4  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - sweep_add 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_5  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - amp_mult 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_6  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - dac_a_mult 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_7  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - mod_phase_def 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_default_val_0_8  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:default_val:1.0 - sample_cnt Adding component instance block -- xilinx.com:module_ref:split_AXI:1.0 - mod_phase 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_split_AXI_0_3  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_0_5  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_1_2  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:c_addsub:12.0 - c_addsub_0 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_c_addsub_0_1  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:cordic:6.0 - sqrt 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_cordic_0_0  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:cordic:6.0 - atan 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_cordic_1_1  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:out_val:1.0 - out_val_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_out_val_0_2  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:comb_AXI:1.0 - comb_AXI_0 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'. INFO: [BD 41-1728] Could not find a module with name: system_comb_AXI_0_1  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_1_5  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_0_7  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:moving_average:1.0 - moving_average_0 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'. INFO: [BD 41-1728] Could not find a module with name: system_moving_average_0_4  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:simple_summation:1.0 - simple_summation_0 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'. INFO: [BD 41-1728] Could not find a module with name: system_simple_summation_0_4  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_1_4  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_0_6  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:moving_average:1.0 - moving_average_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_moving_average_0_2  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:simple_summation:1.0 - simple_summation_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_simple_summation_0_2  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0 Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_mult_gen_0_4  
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:c_addsub:12.0 - c_addsub_0 Adding component instance block -- xilinx.com:ip:cordic:6.0 - sqrt 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_cordic_0_1  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:cordic:6.0 - atan 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_cordic_1_0  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:comb_AXI:1.0 - comb_AXI_0 Adding component instance block -- xilinx.com:module_ref:out_val:1.0 - out_val_0 Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0 Adding component instance block -- xilinx.com:module_ref:moving_average:1.0 - moving_average_0 Adding component instance block -- xilinx.com:module_ref:simple_summation:1.0 - simple_summation_0 Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_1 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:mult_gen:12.0 - mult_gen_0 Adding component instance block -- xilinx.com:module_ref:moving_average:1.0 - moving_average_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_moving_average_0_3  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:simple_summation:1.0 - simple_summation_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_simple_summation_0_3  
+// Tcl Message: Adding component instance block -- xilinx.com:ip:dds_compiler:6.0 - dds_compiler_0 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_dds_compiler_0_0  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:dds_compiler:6.0 - dds_compiler_1 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_dds_compiler_0_1  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:c_addsub:12.0 - c_addsub_0 
+// Tcl Message: INFO: [BD 41-434] Could not find an IP with XCI file by name: system_c_addsub_0_2  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:freq_doubler:1.0 - freq_doubler_0 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/cores'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/repos/RePLIA/fpga/custom_ip'. INFO: [BD 41-1728] Could not find a module with name: system_freq_doubler_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:out_val:1.0 - out_val_0 Adding component instance block -- xilinx.com:module_ref:split_AXI:1.0 - split_AXI_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_split_AXI_0_0  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:split_AXI:1.0 - split_AXI_1 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_split_AXI_0_2  
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:two_clk_accum:1.0 - phase_gen 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: system_two_clk_accum_1_0  
+// Tcl Message: Successfully read diagram <system> from block design file <D:/repos/RePLIA/fpga/LockIn.srcs/sources_1/bd/system/system.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  2528 ms.
+// Tcl Message: INFO: [BD 41-433]  Design successfully migrated to use XCI files... 
+// Elapsed time: 663 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design: Time (s): cpu = 00:01:06 ; elapsed = 00:11:02 . Memory (MB): peak = 1098.465 ; gain = 96.953 
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 849ms to process. Increasing delay to 3000 ms.
+dismissDialog("Open Block Design"); // bz
+// [GUI Memory]: 187 MB (+16189kb) [00:18:59]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 127 MB. Current time: 1/30/21, 3:38:35 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 120 MB. Current time: 1/30/21, 4:08:36 PM PST
+// WARNING: HEventQueue.dispatchEvent() is taking  1030 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1148 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 110 MB. Current time: 1/30/21, 4:38:36 PM PST
+// PAPropertyPanels.initPanels (out_bus) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// N (cr):  Re-customize IP : addNotify
+// r (cr): Re-customize Module Reference: addNotify
+// Elapsed time: 5033 seconds
+dismissDialog("Re-customize IP"); // N
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Re-customize Module Reference"); // r
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cr): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1309 ms.
+// Elapsed time: 22 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Re-customize IP"); // r
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cr): Re-customize Module Reference: addNotify
+// Elapsed time: 20 seconds
+dismissDialog("Re-customize Module Reference"); // r
+// Elapsed time: 502 seconds
+setText(PAResourceQtoS.RSBBlockPropPanels_NAME, "sweep_gen"); // aa
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cr): Re-customize IP: addNotify
+// Elapsed time: 57 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Output and Control", 1); // bi
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // bi
+dismissDialog("Re-customize IP"); // r
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 128 MB. Current time: 1/30/21, 5:08:36 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 129 MB. Current time: 1/30/21, 5:38:37 PM PST
