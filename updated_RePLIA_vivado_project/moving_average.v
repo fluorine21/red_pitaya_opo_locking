@@ -17,21 +17,22 @@ module moving_average # (
     genvar i;
     
     //Deal with in and out data
-    always @(posedge clk) begin
+    always @(posedge clk or negedge rst) begin
 		if (!rst) begin
 		in_data2 <= 0;
         out_data2 <= 0;
 		state <= 1;
+		
 		end
-		else if(cnt_clk && state) begin
+		else if(clk && state && rst) begin
         in_data2 <= {{(log2_samples+1){in_data[in_bits-1]}}, in_data[in_bits-2:0]};
         out_data2 <= out_data2 + in_data2 - {{(log2_samples+1){out_data2[reg_bits-1]}}, out_data2[reg_bits-2:log2_samples]};
 		state <= 0;
 		end
-		else if (!state && !cnt_clk) begin
+		else begin
 		state <= 1;
 		end
-		
+	
 		
 		
    end

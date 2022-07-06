@@ -1,4 +1,7 @@
 // This file will implement the RTL file of comb_AXI_0
+// Copied from original design, is NOT used in our design.
+// Kept here in repository in case it may be needed (ex: want the phasor output)
+// Has not been thoroughly tested.
 module comb_AXI # (
     parameter integer OUT_DATA_WIDTH = 48,
     parameter integer IN_DATA_WIDTH = 24,

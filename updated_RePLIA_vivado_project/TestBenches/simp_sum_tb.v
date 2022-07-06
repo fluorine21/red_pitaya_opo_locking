@@ -1,3 +1,6 @@
+// Testbench by Rahul Chawlani, James Williams, Caltech
+// This serves as a testbench for the simple_summation module
+
 module simple_sum_tb;
 	
 	reg [15:0] in_data;

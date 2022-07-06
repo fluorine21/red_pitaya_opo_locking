@@ -1,3 +1,6 @@
+// By Rahul Chawlani, James Williams, Caltech
+// This module serves as a testbench for the muxing function
+
 module tb_adc_mux;
 	reg clk;
 	reg [31:0] adc_a_i;
@@ -20,9 +23,9 @@ module tb_adc_mux;
 	initial begin
 		$monitor("Time = %0t clk = %0d adc_o = %0d", $time, clk, adc_o);
 		
-		adc_a_i <= 12;
+		adc_a_i <= 12; // example values
 		adc_b_i <= 16;
-		user_cntr <= 0;
+		user_cntr <= 0; //  Choose what data input is requested
 		#5 clk <= 0;
 		#100 user_cntr <= 1;
 		#200 $finish;

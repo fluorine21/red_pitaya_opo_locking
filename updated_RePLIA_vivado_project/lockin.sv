@@ -1,4 +1,6 @@
-
+// By Rahul Chawlani, James Williams, Caltech
+// This module will lock in a cartesian variable based on the adc data and the counter
+// It is another top level module
 
 
 
@@ -21,6 +23,8 @@ mul #(14, 16, 28, 5) mul0(clk, rst, signal_in, ref_in, p1);
 //Summation block
 wire [24+32-1:0] sum_out;
 wire cnt_timer;
+// Essentially, we will start outputting, once counter reaches FFFF and resets back to 0, we will
+// start outputting x and y. We see that it updates everytime this happens so we have continous locking
 simple_summation #(24,32) simple_summation_inst
 	(
     p1[24:1],
@@ -36,7 +40,7 @@ wire [24:0] p2;
 mul #(56, 32, 55, 32) mul1(clk, rst, sum_out, cnt_inc, p2);
 
 
-//Moving average at the output
+//Moving average at the output to make data cleaner
 moving_average #(24, 24, 6) moving_average_inst(p2[24:1], clk, cnt_timer, rst, out_data);
 
 // possible 1 as last param for moving_average

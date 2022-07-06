@@ -1,7 +1,9 @@
-// By Rahul Chawlani
+// By Rahul Chawlani, James Williams, Caltech
 // Revision History:
 // 06/16/22: Create Files, make inputs
 // 06/27/22: Most Recent Working Code
+// 06/30/22: Updated two_clk_accum and removed daisy chained clk.
+// For simulations, look at tb_lockin.v
 // Define Inputs to System
 module opo_locking #(
 	// Various constants for integers
@@ -14,43 +16,41 @@ module opo_locking #(
 )(
 input wire [ADC_LENGTH-1:0]adc_dat_a_i, // First Input from adc as external source
 input wire [ADC_LENGTH-1:0]adc_dat_b_i, // Second Input from adc as external source
-//input wire adc_clk_n_i, // Clks' from the adc
+//input wire adc_clk_n_i, // Clks' from the adc, may be necessary in some setups, we will have clk from a seperate wizard
 //input wire adc_clk_p_i, // Will use in the actual code
-input wire clk, // Temporary, once finish testing, we'll take it away
+input wire clk, // clk from input from clk_wizard for adc's
 input wire user_cntr, // User control for the mux, high will choose a, low will choose b
 input wire rst, // Reset, active low (if we have 0, we reset everything
-input wire [COUNTER_LENGTH-1:0]inc_in, // Counter for the processing
-input wire sinc_in, // sync_i, defined by mode_control
+input wire [COUNTER_LENGTH-1:0]inc_in, // Counter for the processing, defines what speed we can increase the system
+input wire sinc_in, // sync_i, defined by mode_control for purposes of resetting counter
 
 //Define Outputs of System
-output wire [CART_LENGTH-1:0]x_out, // Cartesian Outputss
-output wire [CART_LENGTH-1:0]y_out,
-output wire [SINUSOID_LENGTH-1:0]cos_out, // Sinusoidal outputs, to be PID'd later
-output wire [SINUSOID_LENGTH-1:0]sin_out
+(* X_INTERFACE_PARAMETER = "FREQ_HZ 250000000"*) output wire [CART_LENGTH-1:0]x_out, // Cartesian Outputss
+(* X_INTERFACE_PARAMETER = "FREQ_HZ 250000000"*) output wire [CART_LENGTH-1:0]y_out,
+(* X_INTERFACE_PARAMETER = "FREQ_HZ 250000000"*) output wire [SINUSOID_LENGTH-1:0]cos_out, // Sinusoidal outputs, to be PID'd later
+(* X_INTERFACE_PARAMETER = "FREQ_HZ 250000000"*) output wire [SINUSOID_LENGTH-1:0]sin_out
 );
-// We need to add the clking wizard to convert adc timers to system clk
-// This will be done in BD
-// For now, I'm putting count_clk as just clk, since we're not daisy chaining
-//wire [ADC_LENGTH-1:0]adc_a_o;
-//wire [ADC_LENGTH-1:0]adc_b_o;
 
-// Take the 2's complement of the two input values from the adc
-//adc_2comp adc_2_comp_inst(
-  //  adc_dat_a_i,
-  //  adc_dat_b_i,
+wire [ADC_LENGTH-1:0]adc_a_o;
+wire [ADC_LENGTH-1:0]adc_b_o;
+
+// Take the 2's complement of the two input values from the adc, will need for BD
+adc_2comp adc_2_comp_inst(
+    adc_dat_a_i,
+    adc_dat_b_i,
    
-  //  clk, rst,
+    clk, rst,
     
-  //  adc_a_o,
-  //  adc_b_o
-   // );
+    adc_a_o,
+    adc_b_o
+    );
 
 wire [ADC_LENGTH-1:0]adc_o;
 // We will choose one adc so below is a muxing module with user control
 adc_muxing adc_muxing_inst(
 	// Define Input/output wires
-	adc_dat_a_i,
-    adc_dat_b_i,
+	adc_a_o,
+	adc_b_o,
     clk,
     user_cntr,
     adc_o
@@ -59,17 +59,16 @@ adc_muxing adc_muxing_inst(
 wire [ADC_LENGTH-1:0]signal_in;
 assign signal_in = adc_o;
 reg out_clk;
-reg count_clk; // Since we do not implement daisy chanining, we simply want the count_clk to be the same as clk
-assign count_clk = clk;
+
 assign out_clk = clk;
 wire sync_i;
 assign sync_i = sinc_in;
 wire [COUNTER_LENGTH-1:0]count_out;
 //Below is the averaging_timer to create the counter
-two_clk_accum  
+two_clk_accum 
      //For AXI interfaces where bus size is a multiple of 8 regardless of number of bits
     two_clk_accum_inst(
-    count_clk, rst,
+    rst,
 	out_clk,
     sync_i, 
     
@@ -80,13 +79,10 @@ two_clk_accum
 
 wire [COUNTER_LENGTH-1:0]counter;
 assign counter = count_out;
-assign cnt_clk = clk;
-//wire [SINUSOID_LENGTH-1:0]cos_out;
-//wire [SINUSOID_LENGTH-1:0]sin_out;
 // Below we create the waves based on the user input
 dds_compiler # (UPPERBOUND_COUNTOUT, LOWERBOUND_COUNTOUT) dds_compiler_inst
 (
-	clk,count_clk, rst,
+	clk, rst,
 	inc_in, // Input
 	sinc_in, // equivalent of sync_i
 	

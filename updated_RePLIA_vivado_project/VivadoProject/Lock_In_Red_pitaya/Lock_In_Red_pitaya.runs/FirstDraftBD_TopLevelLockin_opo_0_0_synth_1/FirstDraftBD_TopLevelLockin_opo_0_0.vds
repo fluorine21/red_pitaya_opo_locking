@@ -1,0 +1,498 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Jul  5 16:26:19 2022
+# Process ID: 156792
+# Current directory: C:/Users/chawlani/Lock_In_Red_pitaya/Lock_In_Red_pitaya.runs/FirstDraftBD_TopLevelLockin_opo_0_0_synth_1
+# Command line: vivado.exe -log FirstDraftBD_TopLevelLockin_opo_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FirstDraftBD_TopLevelLockin_opo_0_0.tcl
+# Log file: C:/Users/chawlani/Lock_In_Red_pitaya/Lock_In_Red_pitaya.runs/FirstDraftBD_TopLevelLockin_opo_0_0_synth_1/FirstDraftBD_TopLevelLockin_opo_0_0.vds
+# Journal file: C:/Users/chawlani/Lock_In_Red_pitaya/Lock_In_Red_pitaya.runs/FirstDraftBD_TopLevelLockin_opo_0_0_synth_1\vivado.jou
+# Running On: NLO, OS: Windows, CPU Frequency: 2295 MHz, CPU Physical cores: 16, Host memory: 549385 MB
+#-----------------------------------------------------------
+source FirstDraftBD_TopLevelLockin_opo_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+Command: synth_design -top FirstDraftBD_TopLevelLockin_opo_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 41928
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'FirstDraftBD_TopLevelLockin_opo_0_0' [c:/Users/chawlani/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_TopLevelLockin_opo_0_0/synth/FirstDraftBD_TopLevelLockin_opo_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'TopLevelLockin_opo' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'config_reg' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/config_reg.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'config_reg' (1#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/config_reg.sv:5]
+WARNING: [Synth 8-689] width (1) of port connection 'reg_out' does not match port width (32) of module 'config_reg' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:38]
+INFO: [Synth 8-6157] synthesizing module 'config_reg__parameterized0' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/config_reg.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'config_reg__parameterized0' (1#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/config_reg.sv:5]
+WARNING: [Synth 8-689] width (1) of port connection 'reg_out' does not match port width (32) of module 'config_reg__parameterized0' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:53]
+INFO: [Synth 8-6157] synthesizing module 'config_reg__parameterized1' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/config_reg.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'config_reg__parameterized1' (1#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/config_reg.sv:5]
+WARNING: [Synth 8-689] width (1) of port connection 'reg_out' does not match port width (32) of module 'config_reg__parameterized1' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:68]
+INFO: [Synth 8-6157] synthesizing module 'config_reg__parameterized2' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/config_reg.sv:5]
+INFO: [Synth 8-6155] done synthesizing module 'config_reg__parameterized2' (1#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/config_reg.sv:5]
+WARNING: [Synth 8-689] width (1) of port connection 'reg_out' does not match port width (32) of module 'config_reg__parameterized2' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:83]
+INFO: [Synth 8-6157] synthesizing module 'opo_locking' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/Lock_In_System.v:8]
+INFO: [Synth 8-6157] synthesizing module 'adc_2comp' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/adc_2comp.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adc_2comp' (2#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/adc_2comp.v:6]
+INFO: [Synth 8-6157] synthesizing module 'adc_muxing' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/adc_muxing.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'adc_muxing' (3#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/adc_muxing.v:8]
+INFO: [Synth 8-6157] synthesizing module 'two_clk_accum' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/two_clk_accum.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'two_clk_accum' (4#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/two_clk_accum.v:2]
+INFO: [Synth 8-6157] synthesizing module 'dds_compiler' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/dds_compiler.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'two_clk_accum__parameterized0' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/two_clk_accum.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'two_clk_accum__parameterized0' (4#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/two_clk_accum.v:2]
+INFO: [Synth 8-6157] synthesizing module 'sine_lut' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/sine_lut.sv:6]
+INFO: [Synth 8-6155] done synthesizing module 'sine_lut' (5#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/sine_lut.sv:6]
+INFO: [Synth 8-6155] done synthesizing module 'dds_compiler' (6#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/dds_compiler.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'ch_processing' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/ch_processing.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'lockin' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/lockin.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'mul' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/mul.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'mul' (7#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/mul.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'simple_summation' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/simple_summation.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'simple_summation' (8#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/simple_summation.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mul__parameterized0' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/mul.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'mul__parameterized0' (8#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/mul.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'moving_average' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/moving_average.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'moving_average' (9#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/moving_average.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'lockin' (10#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/lockin.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'ch_processing' (11#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/ch_processing.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'opo_locking' (12#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/Lock_In_System.v:8]
+WARNING: [Synth 8-689] width (1) of port connection 'x_out' does not match port width (24) of module 'opo_locking' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:99]
+WARNING: [Synth 8-689] width (1) of port connection 'y_out' does not match port width (24) of module 'opo_locking' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:100]
+WARNING: [Synth 8-689] width (1) of port connection 'cos_out' does not match port width (16) of module 'opo_locking' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:101]
+WARNING: [Synth 8-689] width (1) of port connection 'sin_out' does not match port width (16) of module 'opo_locking' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:102]
+INFO: [Synth 8-6157] synthesizing module 'mul__parameterized1' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/mul.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'mul__parameterized1' (12#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/mul.sv:4]
+WARNING: [Synth 8-689] width (1) of port connection 'p' does not match port width (20) of module 'mul__parameterized1' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:117]
+WARNING: [Synth 8-689] width (1) of port connection 'p' does not match port width (20) of module 'mul__parameterized1' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:132]
+INFO: [Synth 8-6157] synthesizing module 'dac_switch' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/dac_switch.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'ODDR' [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:74749]
+INFO: [Synth 8-6155] done synthesizing module 'ODDR' (13#1) [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:74749]
+INFO: [Synth 8-6155] done synthesizing module 'dac_switch' (14#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/dac_switch.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'out_mux' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/out_mux.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'out_mux' (15#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/out_mux.sv:3]
+WARNING: [Synth 8-3848] Net address in module/entity TopLevelLockin_opo does not have driver. [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:150]
+INFO: [Synth 8-6155] done synthesizing module 'TopLevelLockin_opo' (16#1) [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/TopLevelLockin_opo.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'FirstDraftBD_TopLevelLockin_opo_0_0' (17#1) [c:/Users/chawlani/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_TopLevelLockin_opo_0_0/synth/FirstDraftBD_TopLevelLockin_opo_0_0.v:58]
+WARNING: [Synth 8-7129] Port cnt_clk in module moving_average is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[30] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[29] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[28] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[27] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[26] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[25] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[24] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[23] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[22] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[21] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[20] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[19] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[18] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[17] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[16] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[15] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[14] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[13] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[12] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[11] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[10] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[9] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[8] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[7] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[6] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[5] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[4] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[3] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[2] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[1] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port counter[0] in module simple_summation is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module adc_muxing is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[31] in module config_reg__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[30] in module config_reg__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[29] in module config_reg__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[28] in module config_reg__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[27] in module config_reg__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[26] in module config_reg__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[25] in module config_reg__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[31] in module config_reg__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[30] in module config_reg__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[29] in module config_reg__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[28] in module config_reg__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[27] in module config_reg__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[26] in module config_reg__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[25] in module config_reg__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[31] in module config_reg__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[30] in module config_reg__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[29] in module config_reg__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[28] in module config_reg__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[27] in module config_reg__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[26] in module config_reg__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[25] in module config_reg__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[31] in module config_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[30] in module config_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[29] in module config_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[28] in module config_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[27] in module config_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[26] in module config_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[25] in module config_reg is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 1304.301 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1304.301 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.153 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'gpio_temp_reg' [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/out_mux.sv:15]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input   30 Bit       Adders := 2     
+	   2 Input   11 Bit       Adders := 1     
++---Registers : 
+	               88 Bit    Registers := 2     
+	               56 Bit    Registers := 4     
+	               32 Bit    Registers := 10    
+	               30 Bit    Registers := 4     
+	               16 Bit    Registers := 2     
+	               14 Bit    Registers := 4     
+	                1 Bit    Registers := 8     
++---Multipliers : 
+	              32x56  Multipliers := 2     
++---Muxes : 
+	   4 Input   24 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 2     
+	   2 Input   14 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 8     
+	   6 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-6014] Unused sequential element inst/opo_locking_inst/ch_processing_inst/lockin_x_inst/mul1/pr_reg was removed.  [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/mul.sv:21]
+WARNING: [Synth 8-6014] Unused sequential element inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg was removed.  [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/mul.sv:21]
+DSP Report: Generating DSP inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul0/pr_reg, operation Mode is: (A*B)'.
+DSP Report: register inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul0/pr_reg is absorbed into DSP inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul0/pr_reg.
+DSP Report: operator inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul0/pr0 is absorbed into DSP inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul0/pr_reg.
+DSP Report: Generating DSP inst/opo_locking_inst/ch_processing_inst/lockin_x_inst/mul0/pr_reg, operation Mode is: (A*B)'.
+DSP Report: register inst/opo_locking_inst/ch_processing_inst/lockin_x_inst/mul0/pr_reg is absorbed into DSP inst/opo_locking_inst/ch_processing_inst/lockin_x_inst/mul0/pr_reg.
+DSP Report: operator inst/opo_locking_inst/ch_processing_inst/lockin_x_inst/mul0/pr0 is absorbed into DSP inst/opo_locking_inst/ch_processing_inst/lockin_x_inst/mul0/pr_reg.
+WARNING: [Synth 8-7129] Port gpio_in[31] in module FirstDraftBD_TopLevelLockin_opo_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[30] in module FirstDraftBD_TopLevelLockin_opo_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[29] in module FirstDraftBD_TopLevelLockin_opo_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[28] in module FirstDraftBD_TopLevelLockin_opo_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[27] in module FirstDraftBD_TopLevelLockin_opo_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[26] in module FirstDraftBD_TopLevelLockin_opo_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port gpio_in[25] in module FirstDraftBD_TopLevelLockin_opo_0_0 is either unconnected or has no load
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[31]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[30]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[29]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[28]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[27]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[26]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[25]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[24]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[23]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[22]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[21]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[20]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[19]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[18]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[17]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[16]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[15]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[14]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[13]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[12]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[11]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[10]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[9]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[8]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[7]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[6]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[5]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[4]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[3]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[2]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[1]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/out_mux_inst/gpio_temp_reg[0]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[47]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[46]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[45]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[44]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[43]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[42]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[41]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[40]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[39]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[38]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[37]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[36]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[35]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[34]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[33]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[32]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[31]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[30]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[29]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[28]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[27]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[26]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[25]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[24]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[23]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[22]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[21]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[20]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[19]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[18]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[17]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[16]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[15]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[14]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[13]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[12]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[11]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[10]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[9]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[8]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[7]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[6]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[5]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[4]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[3]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[2]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[1]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[0]) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[16]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[15]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[14]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[13]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[12]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[11]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[10]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[9]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[8]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[7]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[6]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[5]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[4]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[3]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[2]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[1]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[0]__0) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[47]__1) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[46]__1) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/opo_locking_inst/ch_processing_inst/lockin_y_inst/mul1/pr_reg[45]__1) is unused and will be removed from module FirstDraftBD_TopLevelLockin_opo_0_0.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------------------------------+--------------------------------------------------------------+---------------+----------------+
+|Module Name                         | RTL Object                                                   | Depth x Width | Implemented As | 
++------------------------------------+--------------------------------------------------------------+---------------+----------------+
+|sine_lut                            | data                                                         | 1024x16       | LUT            | 
+|FirstDraftBD_TopLevelLockin_opo_0_0 | inst/opo_locking_inst/dds_compiler_inst/sine_table_inst/data | 1024x16       | LUT            | 
+|FirstDraftBD_TopLevelLockin_opo_0_0 | inst/opo_locking_inst/dds_compiler_inst/cos_table_inst/data  | 1024x16       | LUT            | 
++------------------------------------+--------------------------------------------------------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|mul         | (A*B)'      | 16     | 14     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|mul         | (A*B)'      | 16     | 14     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 1    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    30|
+|2     |DSP48E1 |     1|
+|3     |LUT1    |    28|
+|4     |LUT2    |    90|
+|5     |LUT3    |    77|
+|6     |LUT4    |    32|
+|7     |LUT5    |    47|
+|8     |LUT6    |   215|
+|9     |MUXF7   |    98|
+|10    |MUXF8   |    44|
+|11    |ODDR    |    17|
+|12    |FDCE    |   227|
+|13    |FDPE    |     1|
+|14    |FDRE    |    25|
+|15    |FDSE    |     2|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1304.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:47 . Memory (MB): peak = 1304.301 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:50 . Memory (MB): peak = 1304.301 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1304.301 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 190 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1304.301 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: e6eaa52b
+INFO: [Common 17-83] Releasing license: Synthesis
+166 Infos, 83 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1304.301 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/chawlani/Lock_In_Red_pitaya/Lock_In_Red_pitaya.runs/FirstDraftBD_TopLevelLockin_opo_0_0_synth_1/FirstDraftBD_TopLevelLockin_opo_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP FirstDraftBD_TopLevelLockin_opo_0_0, cache-ID = 948f6352876f5f71
+INFO: [Coretcl 2-1174] Renamed 21 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/chawlani/Lock_In_Red_pitaya/Lock_In_Red_pitaya.runs/FirstDraftBD_TopLevelLockin_opo_0_0_synth_1/FirstDraftBD_TopLevelLockin_opo_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file FirstDraftBD_TopLevelLockin_opo_0_0_utilization_synth.rpt -pb FirstDraftBD_TopLevelLockin_opo_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jul  5 16:27:26 2022...

@@ -1,7 +1,6 @@
-// Possible concern, I don't see any implementation of the Multiplier or the adder or how to connect the lockins
-// AKA, in this file I'm not sure what's going on
-
-
+// By Rahul Chawlani, James Williams, Caltech
+// This module will call on the lockin module for both
+// x and y, will output the locked cartesian coordinates.
 module ch_processing
 (
 	input wire clk, rst,

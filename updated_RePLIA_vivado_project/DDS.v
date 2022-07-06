@@ -1,5 +1,7 @@
 // This file will connect the individual components and implement the DDS 
 // in order to output the sin and cos waves
+// Not used in design and has NOT been tested
+// By Rahul Chawlani
 module DDS(
 	
 	parameter integer DATA_WIDTH_IN = 32

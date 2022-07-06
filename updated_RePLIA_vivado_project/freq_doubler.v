@@ -1,4 +1,6 @@
 // This module will implement the RTL file of freq_doubler
+// Not used in the final design, but kept in case it may be necessary.
+
 module freq_doubler # (
     parameter integer num_bits = 16
     )(
