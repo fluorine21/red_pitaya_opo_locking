@@ -1,3 +1,6 @@
+// By Rahul Chawlani, James Williams
+// This defines the output mux to send data back to the GPIO.
+
 import IOAddress::*;
 
 module out_mux(
@@ -11,9 +14,11 @@ module out_mux(
 );
 	reg [31:0] gpio_temp;
 	always @ * begin
+	// Initialize for the reset condition
 	if (!rst) begin
 		gpio_temp = 0;
 	end
+	// Do the muxes for the gpio and do ifs for address instead of standard logic muxes.
 	else if (address == x_out_MUX) begin
 		gpio_temp = {{8{1'b0}} ,x_in};
 		

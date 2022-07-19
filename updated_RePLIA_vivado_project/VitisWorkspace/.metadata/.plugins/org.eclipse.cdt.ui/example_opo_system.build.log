@@ -1,0 +1,10 @@
+14:28:13 **** Incremental Build of configuration Debug for project example_opo_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 50549 D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VitisWorkspace/opo_locking/export/opo_locking/opo_locking.xpfm standalone_domain D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VitisWorkspace/example_opo_system/Debug/system.bif
+sdcard_gen --xpfm D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VitisWorkspace/opo_locking/export/opo_locking/opo_locking.xpfm --sys_config opo_locking --bif D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VitisWorkspace/example_opo_system/Debug/system.bif --bitstream D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VitisWorkspace/example_opo/_ide/bitstream/FifthDraftBD_wrapper.bit --elf D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VitisWorkspace/example_opo/Debug/example_opo.elf,ps7_cortexa9_0
+creating BOOT.BIN using D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VitisWorkspace/example_opo/_ide/bitstream/FifthDraftBD_wrapper.bit
+Running C:/Xilinx/Vitis/2021.2/bin/bootgen  -image D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VitisWorkspace/example_opo_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:28:23 Build Finished (took 10s.247ms)
+

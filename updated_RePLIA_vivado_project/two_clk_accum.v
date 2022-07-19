@@ -22,9 +22,9 @@ module two_clk_accum # (
     reg [out_bus_size-1:0] out_reg;
     reg [out_bus_size-1:0] out_reg2;
     
-    
+    // Redesigned to make code smoother and easy to read
     always @(posedge out_clk or negedge rst) begin
-		if (!rst) begin
+		if (!rst) begin // Start a reset condition
 			count_reg <= 0;
 			inc_reg<=0;
 			inc_reg2<=0;

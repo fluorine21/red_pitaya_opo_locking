@@ -1,0 +1,10 @@
+12:39:24 **** Incremental Build of configuration Debug for project holamundo_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 51954 D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/export/testdebugger/testdebugger.xpfm standalone_domain D:/repos/red_pitaya_opo_locking/vitis_workspace3/holamundo_system/Debug/system.bif
+sdcard_gen --xpfm D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/export/testdebugger/testdebugger.xpfm --sys_config testdebugger --bif D:/repos/red_pitaya_opo_locking/vitis_workspace3/holamundo_system/Debug/system.bif --bitstream D:/repos/red_pitaya_opo_locking/vitis_workspace3/holamundo/_ide/bitstream/design_7_wrapper.bit --elf D:/repos/red_pitaya_opo_locking/vitis_workspace3/holamundo/Debug/holamundo.elf,ps7_cortexa9_0
+creating BOOT.BIN using D:/repos/red_pitaya_opo_locking/vitis_workspace3/holamundo/_ide/bitstream/design_7_wrapper.bit
+Running C:/Xilinx/Vitis/2021.2/bin/bootgen  -image D:/repos/red_pitaya_opo_locking/vitis_workspace3/holamundo_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+12:39:37 Build Finished (took 12s.739ms)
+

@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Jul  6 14:22:23 2022
+# Process ID: 148056
+# Current directory: D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.runs/impl_1
+# Command line: vivado.exe -log FirstDraftBD_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FirstDraftBD_wrapper.tcl -notrace
+# Log file: D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.runs/impl_1/FirstDraftBD_wrapper.vdi
+# Journal file: D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.runs/impl_1\vivado.jou
+# Running On: NLO, OS: Windows, CPU Frequency: 2295 MHz, CPU Physical cores: 16, Host memory: 549385 MB
+#-----------------------------------------------------------
+source FirstDraftBD_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1258.430 ; gain = 0.000
+Command: link_design -top FirstDraftBD_wrapper -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-454] Reading design checkpoint 'd:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_TopLevelLockin_opo_0_0/FirstDraftBD_TopLevelLockin_opo_0_0.dcp' for cell 'FirstDraftBD_i/TopLevelLockin_opo_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_axi_gpio_0_0/FirstDraftBD_axi_gpio_0_0.dcp' for cell 'FirstDraftBD_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_clk_wiz_0_1/FirstDraftBD_clk_wiz_0_1.dcp' for cell 'FirstDraftBD_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_processing_system7_0_0/FirstDraftBD_processing_system7_0_0.dcp' for cell 'FirstDraftBD_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_rst_clk_wiz_0_100M_0/FirstDraftBD_rst_clk_wiz_0_100M_0.dcp' for cell 'FirstDraftBD_i/rst_clk_wiz_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'd:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_system_ila_0_0/FirstDraftBD_system_ila_0_0.dcp' for cell 'FirstDraftBD_i/system_ila_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_auto_pc_0/FirstDraftBD_auto_pc_0.dcp' for cell 'FirstDraftBD_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.160 . Memory (MB): peak = 1258.430 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 273 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: FirstDraftBD_i/system_ila_0/inst/ila_lib UUID: 8c057d8c-3313-5083-950f-5bd3b660bc70 
+Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_clk_wiz_0_1/FirstDraftBD_clk_wiz_0_1_board.xdc] for cell 'FirstDraftBD_i/clk_wiz_0/inst'
+Finished Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_clk_wiz_0_1/FirstDraftBD_clk_wiz_0_1_board.xdc] for cell 'FirstDraftBD_i/clk_wiz_0/inst'
+Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_clk_wiz_0_1/FirstDraftBD_clk_wiz_0_1.xdc] for cell 'FirstDraftBD_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_clk_wiz_0_1/FirstDraftBD_clk_wiz_0_1.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_clk_wiz_0_1/FirstDraftBD_clk_wiz_0_1.xdc:57]
+get_clocks: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1450.117 ; gain = 191.688
+Finished Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_clk_wiz_0_1/FirstDraftBD_clk_wiz_0_1.xdc] for cell 'FirstDraftBD_i/clk_wiz_0/inst'
+Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_processing_system7_0_0/FirstDraftBD_processing_system7_0_0.xdc] for cell 'FirstDraftBD_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_processing_system7_0_0/FirstDraftBD_processing_system7_0_0.xdc] for cell 'FirstDraftBD_i/processing_system7_0/inst'
+Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_axi_gpio_0_0/FirstDraftBD_axi_gpio_0_0_board.xdc] for cell 'FirstDraftBD_i/axi_gpio_0/U0'
+Finished Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_axi_gpio_0_0/FirstDraftBD_axi_gpio_0_0_board.xdc] for cell 'FirstDraftBD_i/axi_gpio_0/U0'
+Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_axi_gpio_0_0/FirstDraftBD_axi_gpio_0_0.xdc] for cell 'FirstDraftBD_i/axi_gpio_0/U0'
+Finished Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_axi_gpio_0_0/FirstDraftBD_axi_gpio_0_0.xdc] for cell 'FirstDraftBD_i/axi_gpio_0/U0'
+Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_rst_clk_wiz_0_100M_0/FirstDraftBD_rst_clk_wiz_0_100M_0_board.xdc] for cell 'FirstDraftBD_i/rst_clk_wiz_0_100M/U0'
+Finished Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_rst_clk_wiz_0_100M_0/FirstDraftBD_rst_clk_wiz_0_100M_0_board.xdc] for cell 'FirstDraftBD_i/rst_clk_wiz_0_100M/U0'
+Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_rst_clk_wiz_0_100M_0/FirstDraftBD_rst_clk_wiz_0_100M_0.xdc] for cell 'FirstDraftBD_i/rst_clk_wiz_0_100M/U0'
+Finished Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_rst_clk_wiz_0_100M_0/FirstDraftBD_rst_clk_wiz_0_100M_0.xdc] for cell 'FirstDraftBD_i/rst_clk_wiz_0_100M/U0'
+Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'FirstDraftBD_i/system_ila_0/inst/ila_lib/inst'
+Finished Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'FirstDraftBD_i/system_ila_0/inst/ila_lib/inst'
+Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'FirstDraftBD_i/system_ila_0/inst/ila_lib/inst'
+Finished Parsing XDC File [d:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.gen/sources_1/bd/FirstDraftBD/ip/FirstDraftBD_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'FirstDraftBD_i/system_ila_0/inst/ila_lib/inst'
+Parsing XDC File [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.srcs/constrs_1/new/default.xdc]
+Finished Parsing XDC File [D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.srcs/constrs_1/new/default.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1450.117 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 44 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 44 instances
+
+20 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 1450.117 ; gain = 191.688
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1450.117 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1af0093dd
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.367 . Memory (MB): peak = 1471.063 ; gain = 20.945
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+ERROR: [Chipscope 16-302] Could not generate core for dbg_hub. Aborting IP Generation operaion. The current Vivado temporary directory path, 'D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VivadoProject/Lock_In_Red_pitaya/Lock_In_Red_pitaya.runs/impl_1/.Xil/Vivado-148056-NLO', is 148 characters. Errors on the host OS will occur when trying to insert logic for debug core 'dbg_hub' when temporary directory paths exceed 146 characters. Please move this Vivado project or the Vivado working directory to a shorter path; alternately consider using the OS subst command to map part of the path to a drive letter.
+  
+	
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 1af0093dd
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1767.625 ; gain = 0.223
+INFO: [Common 17-83] Releasing license: Implementation
+27 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+opt_design failed
+ERROR: [Chipscope 16-338] Implementing debug Cores failed due to earlier errors
+INFO: [Common 17-206] Exiting Vivado at Wed Jul  6 14:23:11 2022...

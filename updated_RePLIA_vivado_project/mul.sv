@@ -1,4 +1,5 @@
-
+// By Rahul Chawlani, James Williams, Caltech
+// We are implementing a simple multiplier function
 
 
 module mul
@@ -16,7 +17,7 @@ module mul
 	output wire signed [msb-lsb+1:0] p
 );
 	
-reg signed [(a_width*b_width)-1:0] pr;
+reg signed [(a_width*b_width)-1:0] pr; // Have a larger bit size for product
 
 assign p = pr[msb:lsb];
 
@@ -31,20 +32,4 @@ end
 	
 endmodule
 
-
-//wire [21:0] p;
-//mul
-//#(
-	//a_width = 16,
-	//b_width = 16,
-	//msb = 31,
-	//lsb = 0
-//)mul_inst (
-	//clk, rst
-	
-	//[a_width-1:0] a,
-	//[b_width-1:0] b,
-	
-	//[msb-lsb+1:0] p
-//);
 

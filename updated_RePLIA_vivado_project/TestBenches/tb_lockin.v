@@ -60,14 +60,14 @@ module tb_locking;
 		repeat(3) clk_cycle();
 		rst <= 1;
 		user_cntr <= 1;
-		inc_in <= 60000; // adjust this value to see when cartesian outputs can start appearing.
+		inc_in <= 50000; // adjust this value to see when cartesian outputs can start appearing.
 		sinc_in <= 0;
 		
 		adc_dat_a_i <= 1000;
 		adc_dat_b_i <= 1000;
 		repeat(10) clk_cycle();
 		// create a file to use for data processing
-		outfile = $fopen("cnt60000_results_lock.csv", "w");
+		outfile = $fopen("cnt50000_results_lockUPDATE.csv", "w");
 		$fwrite(outfile,"$time, x_out, y_out, cos_out, sin_out\n");
 		
 		for (k=0; k < 100000; k= k+1) begin

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="test_breakpt" location="D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VitisWorkspace/test_breakpt" platform="D:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VitisWorkspace/opo_locking/export/opo_locking/opo_locking.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="test_breakpt_system" sysConfig="opo_locking" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="bb19820b74a12fdf603139850832bcb7">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1468247242">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1563193592" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="lwip_echo_server" hasBspSettings="true"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,16 @@
+Nothing to build in platform 'opo_locking_project'
+
+14:51:18 **** Incremental Build of configuration Debug for project opo_locking ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.
+14:51:20 **** Incremental Build of configuration Debug for project opo_locking_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 56981 D:/repos/red_pitaya_opo_locking/vitis_workspace2_for_opo/opo_locking_project/export/opo_locking_project/opo_locking_project.xpfm standalone_domain D:/repos/red_pitaya_opo_locking/vitis_workspace2_for_opo/opo_locking_system/Debug/system.bif
+sdcard_gen --xpfm D:/repos/red_pitaya_opo_locking/vitis_workspace2_for_opo/opo_locking_project/export/opo_locking_project/opo_locking_project.xpfm --sys_config opo_locking_project --bif D:/repos/red_pitaya_opo_locking/vitis_workspace2_for_opo/opo_locking_system/Debug/system.bif --bitstream D:/repos/red_pitaya_opo_locking/vitis_workspace2_for_opo/opo_locking/_ide/bitstream/SixthDraftBD_wrapper.bit --elf D:/repos/red_pitaya_opo_locking/vitis_workspace2_for_opo/opo_locking/Debug/opo_locking.elf,ps7_cortexa9_0
+creating BOOT.BIN using D:/repos/red_pitaya_opo_locking/vitis_workspace2_for_opo/opo_locking/_ide/bitstream/SixthDraftBD_wrapper.bit
+Running C:/Xilinx/Vitis/2021.2/bin/bootgen  -image D:/repos/red_pitaya_opo_locking/vitis_workspace2_for_opo/opo_locking_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN

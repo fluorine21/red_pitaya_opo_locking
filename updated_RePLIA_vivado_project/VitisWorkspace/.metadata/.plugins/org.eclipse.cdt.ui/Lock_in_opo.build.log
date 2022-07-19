@@ -1,0 +1,27 @@
+13:13:47 **** Incremental Build of configuration Debug for project Lock_in_opo ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/opo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/opo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VitisWorkspace/FirstDraftBD_wrapper_platform/export/FirstDraftBD_wrapper_platform/sw/FirstDraftBD_wrapper_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/opo.d" -MT"src/opo.o" -o "src/opo.o" "../src/opo.c"
+../src/opo.c: In function 'main':
+../src/opo.c:113:6: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+  113 |   u8 a;
+      |      ^
+'Finished building: ../src/opo.c'
+' '
+'Building target: Lock_in_opo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/repos/red_pitaya_opo_locking/updated_RePLIA_vivado_project/VitisWorkspace/FirstDraftBD_wrapper_platform/export/FirstDraftBD_wrapper_platform/sw/FirstDraftBD_wrapper_platform/standalone_domain/bsplib/lib -o "Lock_in_opo.elf"  ./src/opo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+c:/xilinx/vitis/2021.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/10.2.0/real-ld.exe: ./src/opo.o: in function `main':
+D:\repos\red_pitaya_opo_locking\updated_RePLIA_vivado_project\VitisWorkspace\Lock_in_opo\Debug/../src/opo.c:112: undefined reference to `init_platform'
+c:/xilinx/vitis/2021.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/10.2.0/real-ld.exe: D:\repos\red_pitaya_opo_locking\updated_RePLIA_vivado_project\VitisWorkspace\Lock_in_opo\Debug/../src/opo.c:120: undefined reference to `cleanup_platform'
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile:43: Lock_in_opo.elf] Error 1
+make: *** [makefile:34: all] Error 2
+
+13:13:48 Build Finished (took 1s.119ms)
+
