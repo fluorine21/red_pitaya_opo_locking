@@ -31,7 +31,8 @@ parameter integer gpio_data_width = 8
 	output wire ddr_clk_o1,
 	output wire ddr_clk_o2,
 	output wire [31:0] gpio_out,	
-	output wire [7:0] led_out
+	output wire [7:0] led_out,
+	output wire [31:0] inc_out
 );
 wire [31:0] reg_out_cntr;
 // Below we configure the GPIO for the user_cntr for the input mux
@@ -156,7 +157,9 @@ out_mux out_mux_inst(
 	scaled_cos_out,
 	x_out,
 	y_out,
+	inc_in,
 	rst,
-	gpio_out
+	gpio_out,
+	inc_out
 );
 endmodule

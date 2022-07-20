@@ -96,6 +96,23 @@ u8 gpio_init()
 
 }*/
 
+
+u32 gpio_read_data(u16 address)
+{
+	/* This function will read some data from the gpio
+	 * based on an address provided by the user
+	 */
+	u32 gpio_out;
+	u32 dummy_write;
+
+	dummy_write = (u32) address; // cast the address to ensure inputs arenot weird
+	dummy_write = dummy_write << 8; // shift it by 8 to move it into address bar
+	XGpio_DiscreteWrite(&Gpio, 1, dummy_write); // write to the gpio to set the address
+	// but preserve the data
+	gpio_out = XGpio_DiscreteRead(&Gpio, 1); //read the data from the current address.
+	return gpio_out;
+}
+
 void gpio_address(u8 input, u16 address)
 {
 	u32 gpio_st;
@@ -165,11 +182,15 @@ int main()
     print("Hello World\n\r");
     print("Successfully ran Hello World application");
     u8 a;
+    u32 data_out;
     a = gpio_init();
     xil_printf("%d", a);
     gpio_user_cntr(1);
     gpio_sinc_in(1);
     gpio_led_out(3);
+    gpio_inc_in(26);
+    data_out = gpio_read_data(1);
+    xil_printf("%d", data_out);
     cleanup_platform();
     return 0;
 }

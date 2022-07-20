@@ -1,2 +1,6 @@
-2022-07-17T12:39:38.0617422000-Nothing to build in platform 'testdebugger'
+2022-07-19T13:28:31.81973100255-13:28:31 **** Incremental Build of project testdebugger ****
+000-buildplatform.bat 51954 testdebugger no_domain_build 
+000-XSDB Server Channel: tcfchan#20
+00255-
+13:28:34 Build Finished (took 3s.51ms)
 

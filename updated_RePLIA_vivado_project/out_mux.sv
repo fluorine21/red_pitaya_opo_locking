@@ -10,7 +10,9 @@ module out_mux(
 	input wire [23:0] x_in,
 	input wire [23:0] y_in,
 	input wire rst,
-	output wire [31:0] gpio_out
+	input wire [31:0] inc_in,
+	output wire [31:0] gpio_out,
+	output wire [31:0] inc_out
 );
 	reg [31:0] gpio_temp;
 	always @ * begin
@@ -37,5 +39,6 @@ module out_mux(
 	end
 	end
 	assign gpio_out = gpio_temp;
+	assign inc_out = inc_in;
 	
 endmodule

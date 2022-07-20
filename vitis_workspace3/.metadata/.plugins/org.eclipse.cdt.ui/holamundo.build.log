@@ -1,4 +1,4 @@
-12:39:20 **** Incremental Build of configuration Debug for project holamundo ****
+11:58:56 **** Incremental Build of configuration Debug for project holamundo ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -9,11 +9,6 @@ make --no-print-directory main-build
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/export/testdebugger/sw/testdebugger/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 'Finished building: ../src/helloworld.c'
 ' '
-'Building file: ../src/platform.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/export/testdebugger/sw/testdebugger/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
 'Building target: holamundo.elf'
 'Invoking: ARM v7 gcc linker'
 arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/export/testdebugger/sw/testdebugger/standalone_domain/bsplib/lib -o "holamundo.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
@@ -22,9 +17,9 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size holamundo.elf  |tee "holamundo.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  23770	   1160	  22600	  47530	   b9aa	holamundo.elf
+  23898	   1160	  22600	  47658	   ba2a	holamundo.elf
 'Finished building: holamundo.elf.size'
 ' '
 
-12:39:23 Build Finished (took 3s.129ms)
+11:58:57 Build Finished (took 1s.814ms)
 

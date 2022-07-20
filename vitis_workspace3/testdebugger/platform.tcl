@@ -89,3 +89,8 @@ platform generate -domains
 platform config -updatehw {C:/Users/chawlani/test_debugger/design_7_wrapper.xsa}
 platform generate -domains 
 platform generate -domains 
+platform active {testdebugger}
+platform config -updatehw {C:/Users/chawlani/test_debugger/design_7_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Users/chawlani/test_debugger/design_7_wrapper.xsa}
+platform generate -domains 

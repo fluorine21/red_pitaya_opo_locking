@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="holamundo" location="D:/repos/red_pitaya_opo_locking/vitis_workspace3/holamundo" platform="D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/export/testdebugger/testdebugger.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="holamundo_system" sysConfig="testdebugger" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="241946c88c2cc52622034953ab0efd3c">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1695181723">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.410248041" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

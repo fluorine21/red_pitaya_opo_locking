@@ -23457,3 +23457,1419 @@ TRACE::2022-07-17.12:39:10::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_op
 D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2022-07-17.12:39:10::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:37::SCWPlatform::Clearing the existing platform
+TRACE::2022-07-19.11:49:37::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-07-19.11:49:37::SCWBDomain::clearing the fsbl build
+TRACE::2022-07-19.11:49:37::SCWMssOS::Removing the swdes entry for  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:37::SCWMssOS::Removing the swdes entry for  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:37::SCWSystem::Clearing the domains completed.
+TRACE::2022-07-19.11:49:37::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-07-19.11:49:37::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:37::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:37::SCWPlatform:: Platform location is D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:37::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:37::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:37::SCWPlatform::Removing the HwDB with name D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:37::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:37::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:37::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:37::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:37::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:37::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:37::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened new HwDB with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWReader::Active system found as  testdebugger
+TRACE::2022-07-19.11:49:46::SCWReader::Handling sysconfig testdebugger
+TRACE::2022-07-19.11:49:46::SCWDomain::checking for install qemu data   : 
+TRACE::2022-07-19.11:49:46::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-07-19.11:49:46::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-07-19.11:49:46::SCWMssOS::No sw design opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::mss exists loading the mss file  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::Opened the sw design from mss  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::Adding the swdes entry D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-07-19.11:49:46::SCWMssOS::updating the scw layer about changes
+TRACE::2022-07-19.11:49:46::SCWMssOS::Opened the sw design.  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS:: library already available in sw design:  xilffs:4.6
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-07-19.11:49:46::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-07-19.11:49:46::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.11:49:46::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-07-19.11:49:46::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWReader::No isolation master present  
+TRACE::2022-07-19.11:49:46::SCWDomain::checking for install qemu data   : 
+TRACE::2022-07-19.11:49:46::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-07-19.11:49:46::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::No sw design opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::mss exists loading the mss file  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::Opened the sw design from mss  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::Adding the swdes entry D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-07-19.11:49:46::SCWMssOS::updating the scw layer about changes
+TRACE::2022-07-19.11:49:46::SCWMssOS::Opened the sw design.  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-07-19.11:49:46::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-07-19.11:49:46::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.11:49:46::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-07-19.11:49:46::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:49:46::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:49:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:49:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:49:46::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:49:46::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:49:46::SCWReader::No isolation master present  
+TRACE::2022-07-19.11:51:11::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:11::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:11::SCWPlatform:: Platform location is D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa
+TRACE::2022-07-19.11:51:11::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:11::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:20::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2022-07-19.11:51:20::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:51:20::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:51:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:20::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:51:20::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:51:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:20::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:51:20::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:51:20::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:51:20::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:20::SCWPlatform::update - Opened existing hwdb design_1_wrapper_3
+TRACE::2022-07-19.11:51:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:20::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2022-07-19.11:51:20::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:51:20::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:51:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:20::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-07-19.11:51:20::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-07-19.11:51:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:20::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:20::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:51:20::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:20::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:20::SCWPlatform::update - Opened existing hwdb design_1_wrapper_3
+TRACE::2022-07-19.11:51:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:20::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:51:20::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-07-19.11:51:20::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-07-19.11:51:20::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.11:51:20::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2022-07-19.11:51:20::SCWMssOS::Removing the swdes entry for  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:51:20::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:20::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-07-19.11:51:20::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-07-19.11:51:20::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.11:51:20::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2022-07-19.11:51:20::SCWMssOS::Removing the swdes entry for  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:20::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:20::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-07-19.11:51:29::SCWPlatform::Opened new HwDB with name design_1_wrapper_4
+TRACE::2022-07-19.11:51:29::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:51:29::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-07-19.11:51:29::SCWMssOS::Writing the mss file completed D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:51:29::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.11:51:29::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:29::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-07-19.11:51:29::SCWMssOS::Writing the mss file completed D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:29::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.11:51:29::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:29::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:29::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:29::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:51:29::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-07-19.11:51:29::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-07-19.11:51:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:29::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:51:29::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:51:29::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:51:29::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:29::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:29::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:29::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:51:29::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-07-19.11:51:29::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-07-19.11:51:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:29::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:29::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:51:29::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:29::SCWWriter::formatted JSON is {
+	"platformName":	"testdebugger",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"testdebugger",
+	"platHandOff":	"C:/Users/chawlani/test_debugger/design_7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_7_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"testdebugger",
+	"systems":	[{
+			"systemName":	"testdebugger",
+			"systemDesc":	"testdebugger",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"testdebugger",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"9fb44a854f85c0a6c317a08e4890a3fe",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"ps7_coresight_comp_0",
+							"stdout":	"ps7_coresight_comp_0",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"317c6d39623fb35432fb0bd0fa5d75f4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"ps7_coresight_comp_0",
+							"stdout":	"ps7_coresight_comp_0",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-07-19.11:51:29::SCWPlatform::Started generating the artifacts platform testdebugger
+TRACE::2022-07-19.11:51:29::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-07-19.11:51:29::SCWPlatform::Started generating the artifacts for system configuration testdebugger
+LOG::2022-07-19.11:51:29::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-07-19.11:51:29::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-07-19.11:51:29::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-07-19.11:51:29::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2022-07-19.11:51:29::SCWSystem::Checking the domain standalone_domain
+LOG::2022-07-19.11:51:29::SCWSystem::Not a boot domain 
+LOG::2022-07-19.11:51:29::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-07-19.11:51:29::SCWDomain::Generating domain artifcats
+TRACE::2022-07-19.11:51:29::SCWMssOS::Generating standalone artifcats
+TRACE::2022-07-19.11:51:29::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/export/testdebugger/sw/testdebugger/qemu/
+TRACE::2022-07-19.11:51:29::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/export/testdebugger/sw/testdebugger/standalone_domain/qemu/
+TRACE::2022-07-19.11:51:29::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-07-19.11:51:29::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:29::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:29::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:29::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:51:29::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:29::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-07-19.11:51:29::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-07-19.11:51:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:29::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:29::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:51:29::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:29::SCWMssOS::Completed writing the mss file at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2022-07-19.11:51:29::SCWMssOS::Mss edits present, copying mssfile into export location D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:29::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-07-19.11:51:29::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-07-19.11:51:29::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-07-19.11:51:29::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-07-19.11:51:29::SCWMssOS::Copying to export directory.
+TRACE::2022-07-19.11:51:31::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-07-19.11:51:31::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-07-19.11:51:31::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-07-19.11:51:31::SCWSystem::Completed Processing the sysconfig testdebugger
+LOG::2022-07-19.11:51:31::SCWPlatform::Completed generating the artifacts for system configuration testdebugger
+TRACE::2022-07-19.11:51:31::SCWPlatform::Started preparing the platform 
+TRACE::2022-07-19.11:51:31::SCWSystem::Writing the bif file for system config testdebugger
+TRACE::2022-07-19.11:51:31::SCWSystem::dir created 
+TRACE::2022-07-19.11:51:31::SCWSystem::Writing the bif 
+TRACE::2022-07-19.11:51:31::SCWPlatform::Started writing the spfm file 
+TRACE::2022-07-19.11:51:31::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-07-19.11:51:31::SCWPlatform::Completed generating the platform
+TRACE::2022-07-19.11:51:31::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:51:31::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-07-19.11:51:31::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-07-19.11:51:31::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.11:51:31::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:31::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-07-19.11:51:31::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-07-19.11:51:31::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.11:51:31::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:31::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:31::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:31::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:51:31::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:31::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-07-19.11:51:31::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-07-19.11:51:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:31::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:51:31::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:51:31::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.11:51:31::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:31::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:31::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:31::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:51:31::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:31::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-07-19.11:51:31::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-07-19.11:51:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:31::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:31::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:51:31::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:31::SCWWriter::formatted JSON is {
+	"platformName":	"testdebugger",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"testdebugger",
+	"platHandOff":	"C:/Users/chawlani/test_debugger/design_7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_7_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"testdebugger",
+	"systems":	[{
+			"systemName":	"testdebugger",
+			"systemDesc":	"testdebugger",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"testdebugger",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"9fb44a854f85c0a6c317a08e4890a3fe",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"ps7_coresight_comp_0",
+							"stdout":	"ps7_coresight_comp_0",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"317c6d39623fb35432fb0bd0fa5d75f4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"ps7_coresight_comp_0",
+							"stdout":	"ps7_coresight_comp_0",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-07-19.11:51:31::SCWPlatform::updated the xpfm file.
+TRACE::2022-07-19.11:51:31::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:31::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:31::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:31::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.11:51:31::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.11:51:31::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.11:51:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2022-07-19.11:51:31::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2022-07-19.11:51:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.11:51:31::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.11:51:31::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.11:51:31::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:26:54::SCWPlatform::Clearing the existing platform
+TRACE::2022-07-19.13:26:54::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-07-19.13:26:54::SCWBDomain::clearing the fsbl build
+TRACE::2022-07-19.13:26:54::SCWMssOS::Removing the swdes entry for  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:26:54::SCWMssOS::Removing the swdes entry for  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:26:54::SCWSystem::Clearing the domains completed.
+TRACE::2022-07-19.13:26:54::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-07-19.13:26:54::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:26:54::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:26:54::SCWPlatform:: Platform location is D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:26:54::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:26:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:26:54::SCWPlatform::Removing the HwDB with name D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:26:54::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:26:54::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:26:54::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:26:54::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:26:54::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:26:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:26:54::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened new HwDB with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWReader::Active system found as  testdebugger
+TRACE::2022-07-19.13:27:03::SCWReader::Handling sysconfig testdebugger
+TRACE::2022-07-19.13:27:03::SCWDomain::checking for install qemu data   : 
+TRACE::2022-07-19.13:27:03::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-07-19.13:27:03::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-07-19.13:27:03::SCWMssOS::No sw design opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::mss exists loading the mss file  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::Opened the sw design from mss  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::Adding the swdes entry D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-07-19.13:27:03::SCWMssOS::updating the scw layer about changes
+TRACE::2022-07-19.13:27:03::SCWMssOS::Opened the sw design.  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS:: library already available in sw design:  xilffs:4.6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-07-19.13:27:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-07-19.13:27:03::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.13:27:03::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-07-19.13:27:03::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWReader::No isolation master present  
+TRACE::2022-07-19.13:27:03::SCWDomain::checking for install qemu data   : 
+TRACE::2022-07-19.13:27:03::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-07-19.13:27:03::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::No sw design opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::mss exists loading the mss file  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::Opened the sw design from mss  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::Adding the swdes entry D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-07-19.13:27:03::SCWMssOS::updating the scw layer about changes
+TRACE::2022-07-19.13:27:03::SCWMssOS::Opened the sw design.  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-07-19.13:27:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-07-19.13:27:03::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.13:27:03::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-07-19.13:27:03::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:03::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:03::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:03::SCWReader::No isolation master present  
+TRACE::2022-07-19.13:27:08::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:08::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:08::SCWPlatform:: Platform location is D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa
+TRACE::2022-07-19.13:27:08::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:08::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:17::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2022-07-19.13:27:17::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:17::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:17::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:17::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:17::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:17::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:17::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:17::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:17::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:17::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:17::SCWPlatform::update - Opened existing hwdb design_1_wrapper_7
+TRACE::2022-07-19.13:27:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:17::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2022-07-19.13:27:17::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:17::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:17::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:17::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:17::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2022-07-19.13:27:17::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2022-07-19.13:27:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:17::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:17::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:17::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:17::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/tempdsa/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:17::SCWPlatform::update - Opened existing hwdb design_1_wrapper_7
+TRACE::2022-07-19.13:27:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:17::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:17::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-07-19.13:27:17::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-07-19.13:27:17::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.13:27:17::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2022-07-19.13:27:17::SCWMssOS::Removing the swdes entry for  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:17::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:17::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-07-19.13:27:17::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-07-19.13:27:17::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.13:27:17::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2022-07-19.13:27:17::SCWMssOS::Removing the swdes entry for  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:17::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:17::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:17::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-07-19.13:27:26::SCWPlatform::Opened new HwDB with name design_1_wrapper_8
+TRACE::2022-07-19.13:27:26::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:26::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-07-19.13:27:26::SCWMssOS::Writing the mss file completed D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:26::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.13:27:26::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:26::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-07-19.13:27:26::SCWMssOS::Writing the mss file completed D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:26::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.13:27:26::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:26::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:26::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:26::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:26::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:26::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2022-07-19.13:27:26::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2022-07-19.13:27:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:26::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:26::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:26::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:27:26::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:26::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:26::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:26::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:27:26::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:27:26::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:27:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2022-07-19.13:27:26::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2022-07-19.13:27:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:27:26::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:26::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:27:26::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:27:26::SCWWriter::formatted JSON is {
+	"platformName":	"testdebugger",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"testdebugger",
+	"platHandOff":	"C:/Users/chawlani/test_debugger/design_7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_7_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"testdebugger",
+	"systems":	[{
+			"systemName":	"testdebugger",
+			"systemDesc":	"testdebugger",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"testdebugger",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"9fb44a854f85c0a6c317a08e4890a3fe",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"ps7_coresight_comp_0",
+							"stdout":	"ps7_coresight_comp_0",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"317c6d39623fb35432fb0bd0fa5d75f4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"ps7_coresight_comp_0",
+							"stdout":	"ps7_coresight_comp_0",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-07-19.13:28:34::SCWPlatform::Started generating the artifacts platform testdebugger
+TRACE::2022-07-19.13:28:34::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-07-19.13:28:34::SCWPlatform::Started generating the artifacts for system configuration testdebugger
+LOG::2022-07-19.13:28:34::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-07-19.13:28:34::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-07-19.13:28:34::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-07-19.13:28:34::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2022-07-19.13:28:34::SCWSystem::Checking the domain standalone_domain
+LOG::2022-07-19.13:28:34::SCWSystem::Not a boot domain 
+LOG::2022-07-19.13:28:34::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-07-19.13:28:34::SCWDomain::Generating domain artifcats
+TRACE::2022-07-19.13:28:34::SCWMssOS::Generating standalone artifcats
+TRACE::2022-07-19.13:28:34::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/export/testdebugger/sw/testdebugger/qemu/
+TRACE::2022-07-19.13:28:34::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/export/testdebugger/sw/testdebugger/standalone_domain/qemu/
+TRACE::2022-07-19.13:28:34::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-07-19.13:28:34::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:28:34::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:28:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2022-07-19.13:28:34::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2022-07-19.13:28:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:28:34::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:28:34::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:28:34::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:28:34::SCWMssOS::Completed writing the mss file at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2022-07-19.13:28:34::SCWMssOS::Mss edits present, copying mssfile into export location D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:28:34::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-07-19.13:28:34::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-07-19.13:28:34::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-07-19.13:28:34::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-07-19.13:28:34::SCWMssOS::Copying to export directory.
+TRACE::2022-07-19.13:28:34::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-07-19.13:28:34::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-07-19.13:28:34::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-07-19.13:28:34::SCWSystem::Completed Processing the sysconfig testdebugger
+LOG::2022-07-19.13:28:34::SCWPlatform::Completed generating the artifacts for system configuration testdebugger
+TRACE::2022-07-19.13:28:34::SCWPlatform::Started preparing the platform 
+TRACE::2022-07-19.13:28:34::SCWSystem::Writing the bif file for system config testdebugger
+TRACE::2022-07-19.13:28:34::SCWSystem::dir created 
+TRACE::2022-07-19.13:28:34::SCWSystem::Writing the bif 
+TRACE::2022-07-19.13:28:34::SCWPlatform::Started writing the spfm file 
+TRACE::2022-07-19.13:28:34::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-07-19.13:28:34::SCWPlatform::Completed generating the platform
+TRACE::2022-07-19.13:28:34::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:28:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-07-19.13:28:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-07-19.13:28:34::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.13:28:34::SCWMssOS::Saving the mss changes D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:28:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-07-19.13:28:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-07-19.13:28:34::SCWMssOS::Commit changes completed.
+TRACE::2022-07-19.13:28:34::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:28:34::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:28:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2022-07-19.13:28:34::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2022-07-19.13:28:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:28:34::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:28:34::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:28:34::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-07-19.13:28:34::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:28:34::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:28:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2022-07-19.13:28:34::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2022-07-19.13:28:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:28:34::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:28:34::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:28:34::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:28:34::SCWWriter::formatted JSON is {
+	"platformName":	"testdebugger",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"testdebugger",
+	"platHandOff":	"C:/Users/chawlani/test_debugger/design_7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_7_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"testdebugger",
+	"systems":	[{
+			"systemName":	"testdebugger",
+			"systemDesc":	"testdebugger",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"testdebugger",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"9fb44a854f85c0a6c317a08e4890a3fe",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"ps7_coresight_comp_0",
+							"stdout":	"ps7_coresight_comp_0",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"317c6d39623fb35432fb0bd0fa5d75f4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"ps7_coresight_comp_0",
+							"stdout":	"ps7_coresight_comp_0",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-07-19.13:28:34::SCWPlatform::updated the xpfm file.
+TRACE::2022-07-19.13:28:34::SCWPlatform::Trying to open the hw design at D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform::DSA given D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform::DSA absoulate path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform::DSA directory D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw
+TRACE::2022-07-19.13:28:34::SCWPlatform:: Platform Path D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/hw/design_7_wrapper.xsa
+TRACE::2022-07-19.13:28:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2022-07-19.13:28:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_8
+TRACE::2022-07-19.13:28:34::SCWPlatform::Opened existing hwdb design_1_wrapper_8
+TRACE::2022-07-19.13:28:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-07-19.13:28:34::SCWMssOS::Checking the sw design at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-07-19.13:28:34::SCWMssOS::DEBUG:  swdes dump  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-07-19.13:28:34::SCWMssOS::Sw design exists and opened at  D:/repos/red_pitaya_opo_locking/vitis_workspace3/testdebugger/ps7_cortexa9_0/standalone_domain/bsp/system.mss
